@@ -1,0 +1,9765 @@
+.frame-463,
+.frame-463 * {
+  box-sizing: border-box;
+}
+.frame-463 {
+  display: flex;
+  flex-direction: row;
+  gap: 133px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.login {
+  background: var(--background-white, #ffffff);
+  flex-shrink: 0;
+  width: 375px;
+  height: 812px;
+  position: relative;
+  overflow: hidden;
+}
+.icon {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  left: 152px;
+  top: 112px;
+}
+.rectangle-383 {
+  background: var(--primary-blue, #40bfff);
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.group-400 {
+  height: auto;
+  position: absolute;
+  left: 52px;
+  top: 20px;
+  transform: translate(-32px, 0px);
+  overflow: visible;
+}
+.welcome-to-e-com {
+  color: var(--neutral-dark, #223263);
+  text-align: center;
+  font-family: var(--heading-h4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--heading-h4-font-size, 16px);
+  line-height: var(--heading-h4-line-height, 150%);
+  font-weight: var(--heading-h4-font-weight, 700);
+  position: absolute;
+  left: 105px;
+  top: 200px;
+}
+.sign-in-to-continue {
+  color: var(--neutral-grey, #9098b1);
+  text-align: center;
+  font-family: var(
+    --body-text-normalregular-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--body-text-normalregular-font-size, 12px);
+  line-height: var(--body-text-normalregular-line-height, 180%);
+  font-weight: var(--body-text-normalregular-font-weight, 400);
+  position: absolute;
+  left: 127px;
+  top: 232px;
+}
+.email-form {
+  background: var(--background-white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  width: 343px;
+  height: 48px;
+  position: absolute;
+  left: 16px;
+  top: 282px;
+  overflow: hidden;
+}
+.system-icon-24-px-message {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  overflow: hidden;
+}
+.group {
+  width: 83.33%;
+  height: 64.58%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 17.71%;
+  top: 17.71%;
+  overflow: visible;
+}
+.your-email {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: var(
+    --form-text-normal-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--form-text-normal-font-size, 12px);
+  line-height: var(--form-text-normal-line-height, 180%);
+  font-weight: var(--form-text-normal-font-weight, 400);
+  position: absolute;
+  left: 50px;
+  top: 13px;
+  width: 277px;
+}
+.password-form {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  width: 343px;
+  height: 48px;
+  position: absolute;
+  left: 16px;
+  top: 338px;
+  overflow: hidden;
+}
+.system-icon-24-px-password {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  overflow: hidden;
+}
+.group2 {
+  width: 83.33%;
+  height: 83.33%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 8.33%;
+  top: 8.33%;
+  overflow: visible;
+}
+.password {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: var(
+    --form-text-normal-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--form-text-normal-font-size, 12px);
+  line-height: var(--form-text-normal-line-height, 180%);
+  font-weight: var(--form-text-normal-font-weight, 400);
+  position: absolute;
+  left: 50px;
+  top: 13px;
+  width: 277px;
+}
+.sign-in-button {
+  background: var(--primary-blue, #40bfff);
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 171.5px);
+  top: 402px;
+  box-shadow: var(
+    --button-shadow-box-shadow,
+    0px 10px 30px 0px rgba(64, 191, 255, 0.24)
+  );
+  overflow: hidden;
+}
+.sign-in {
+  color: var(--background-white, #ffffff);
+  text-align: center;
+  font-family: var(--button-text-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--button-text-font-size, 14px);
+  line-height: var(--button-text-line-height, 180%);
+  font-weight: var(--button-text-font-weight, 700);
+  position: relative;
+  width: 311px;
+}
+.or-line {
+  position: absolute;
+  inset: 0;
+}
+.or {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 178px;
+  top: 480px;
+}
+.line-37 {
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px 0 0 0;
+  width: 134px;
+  height: 0px;
+  position: absolute;
+  left: 16px;
+  top: 490px;
+}
+.line-38 {
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px 0 0 0;
+  width: 137px;
+  height: 0px;
+  position: absolute;
+  left: 222px;
+  top: 490px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.login-with-google-button {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 16px;
+  top: 517px;
+  box-shadow: var(
+    --button-shadow-box-shadow,
+    0px 10px 30px 0px rgba(64, 191, 255, 0.24)
+  );
+  overflow: hidden;
+}
+.other-icon-google {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.group-121 {
+  width: 66.67%;
+  height: 66.67%;
+  position: absolute;
+  right: 16.67%;
+  left: 16.67%;
+  bottom: 16.67%;
+  top: 16.67%;
+  overflow: visible;
+}
+.login-with-google {
+  color: var(--neutral-grey, #9098b1);
+  text-align: center;
+  font-family: var(--button-text-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--button-text-font-size, 14px);
+  line-height: var(--button-text-line-height, 180%);
+  font-weight: var(--button-text-font-weight, 700);
+  position: relative;
+  width: 277px;
+}
+.login-with-facebook-button {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 16px;
+  top: 582px;
+  box-shadow: var(
+    --button-shadow-box-shadow,
+    0px 10px 30px 0px rgba(64, 191, 255, 0.24)
+  );
+  overflow: hidden;
+}
+.other-icon-facebook {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.login-with-facebook {
+  color: var(--neutral-grey, #9098b1);
+  text-align: center;
+  font-family: var(--button-text-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--button-text-font-size, 14px);
+  line-height: var(--button-text-line-height, 180%);
+  font-weight: var(--button-text-font-weight, 700);
+  position: relative;
+  width: 277px;
+}
+.forgot-password {
+  color: var(--primary-blue, #40bfff);
+  text-align: center;
+  font-family: var(--link-small-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--link-small-font-size, 12px);
+  line-height: var(--link-small-line-height, 150%);
+  font-weight: var(--link-small-font-weight, 700);
+  position: absolute;
+  left: 129px;
+  top: 655px;
+}
+.don-t-have-a-account-register {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 86px;
+  top: 681px;
+}
+.don-t-have-a-account-register-span {
+  color: var(--neutral-grey, #9098b1);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 400;
+}
+.don-t-have-a-account-register-span2 {
+  color: #5c61f4;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 700;
+}
+.don-t-have-a-account-register-span3 {
+  color: var(--primary-blue, #40bfff);
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 700;
+}
+.ui-home-indicator {
+  width: 375px;
+  height: 34px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.home-indicator {
+  background: var(--primary-soft-grey, #d1d6e8);
+  border-radius: 100px;
+  opacity: 0.5;
+  width: 134px;
+  height: 5px;
+  position: absolute;
+  left: calc(50% - 66.5px);
+  bottom: 8px;
+}
+.register-form {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 375px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.icon2 {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  left: 151px;
+  top: 155px;
+}
+.group-4002 {
+  height: auto;
+  position: absolute;
+  left: 52px;
+  top: 20px;
+  transform: translate(-32px, 0px);
+  overflow: visible;
+}
+.let-s-get-started {
+  color: var(--neutral-dark, #223263);
+  text-align: center;
+  font-family: var(--heading-h4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--heading-h4-font-size, 16px);
+  line-height: var(--heading-h4-line-height, 150%);
+  font-weight: var(--heading-h4-font-weight, 700);
+  position: absolute;
+  left: 116px;
+  top: 243px;
+}
+.create-an-new-account {
+  color: var(--neutral-grey, #9098b1);
+  text-align: center;
+  font-family: var(
+    --body-text-normalregular-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--body-text-normalregular-font-size, 12px);
+  line-height: var(--body-text-normalregular-line-height, 180%);
+  font-weight: var(--body-text-normalregular-font-weight, 400);
+  position: absolute;
+  left: 111px;
+  top: 275px;
+}
+.full-name-form {
+  background: var(--background-white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  width: 343px;
+  height: 48px;
+  position: absolute;
+  left: 16px;
+  top: 325px;
+  overflow: hidden;
+}
+.system-icon-24-px-user {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  overflow: hidden;
+}
+.group3 {
+  width: 83.33%;
+  height: 83.33%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 8.34%;
+  top: 8.34%;
+  overflow: visible;
+}
+.full-name {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: var(
+    --form-text-normal-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--form-text-normal-font-size, 12px);
+  line-height: var(--form-text-normal-line-height, 180%);
+  font-weight: var(--form-text-normal-font-weight, 400);
+  position: absolute;
+  left: 50px;
+  top: 13px;
+  width: 277px;
+}
+.email-form2 {
+  background: var(--background-white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  width: 343px;
+  height: 48px;
+  position: absolute;
+  left: 16px;
+  top: 381px;
+  overflow: hidden;
+}
+.group4 {
+  width: 83.33%;
+  height: 64.58%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 17.71%;
+  top: 17.71%;
+  overflow: visible;
+}
+.password-form2 {
+  background: var(--background-white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  width: 343px;
+  height: 48px;
+  position: absolute;
+  left: 16px;
+  top: 437px;
+  overflow: hidden;
+}
+.group5 {
+  width: 83.33%;
+  height: 83.33%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 8.33%;
+  top: 8.33%;
+  overflow: visible;
+}
+.password-again-from {
+  background: var(--background-white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-light, #ebf0ff);
+  border-width: 1px;
+  padding: 12px 16px 12px 16px;
+  width: 343px;
+  height: 48px;
+  position: absolute;
+  left: 16px;
+  top: 493px;
+  overflow: hidden;
+}
+.group6 {
+  width: 83.33%;
+  height: 83.33%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 8.33%;
+  top: 8.33%;
+  overflow: visible;
+}
+.password-again {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: var(
+    --form-text-normal-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--form-text-normal-font-size, 12px);
+  line-height: var(--form-text-normal-line-height, 180%);
+  font-weight: var(--form-text-normal-font-weight, 400);
+  position: absolute;
+  left: 50px;
+  top: 13px;
+  width: 277px;
+}
+.sign-up-button {
+  background: var(--primary-blue, #40bfff);
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 171.5px);
+  top: 557px;
+  box-shadow: var(
+    --button-shadow-box-shadow,
+    0px 10px 30px 0px rgba(64, 191, 255, 0.24)
+  );
+  overflow: hidden;
+}
+.sign-up {
+  color: var(--background-white, #ffffff);
+  text-align: center;
+  font-family: var(--button-text-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--button-text-font-size, 14px);
+  line-height: var(--button-text-line-height, 180%);
+  font-weight: var(--button-text-font-weight, 700);
+  position: relative;
+  width: 311px;
+}
+.have-a-account-sign-in {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 109px;
+  top: 638px;
+}
+.have-a-account-sign-in-span {
+  color: var(--neutral-grey, #9098b1);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 400;
+}
+.have-a-account-sign-in-span2 {
+  color: #5c61f4;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 700;
+}
+.have-a-account-sign-in-span3 {
+  color: var(--primary-blue, #40bfff);
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 700;
+}
+.landing-page {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1500px;
+  height: 4975px;
+  position: relative;
+  overflow: hidden;
+}
+.search {
+  position: absolute;
+  inset: 0;
+}
+.rounded-rectangle-3 {
+  width: 42.33%;
+  height: 1.29%;
+  position: absolute;
+  right: 29.7%;
+  left: 27.96%;
+  bottom: 15.6%;
+  top: 83.12%;
+  overflow: visible;
+}
+.rounded-rectangle-3-copy {
+  width: 8.47%;
+  height: 1.29%;
+  position: absolute;
+  right: 29.7%;
+  left: 61.83%;
+  bottom: 15.6%;
+  top: 83.12%;
+  overflow: visible;
+}
+.search2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 31.54%;
+  left: 63.66%;
+  width: 4.8%;
+  bottom: 15.94%;
+  top: 83.46%;
+  height: 0.6%;
+}
+.search-query {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.3499999940395355;
+  position: absolute;
+  right: 62.84%;
+  left: 29.36%;
+  width: 7.8%;
+  bottom: 15.98%;
+  top: 83.58%;
+  height: 0.44%;
+}
+.news {
+  position: absolute;
+  inset: 0;
+}
+.latest-news {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  position: absolute;
+  right: 42.23%;
+  left: 42.23%;
+  width: 15.53%;
+  bottom: 31.9%;
+  top: 67.08%;
+  height: 1.03%;
+}
+.offer-banner {
+  position: absolute;
+  inset: 0;
+}
+.promotion-image {
+  background: var(
+    --promotion-image1,
+    linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)
+  );
+  border-radius: 5px;
+  width: 1918.48px;
+  height: 653.73px;
+  position: absolute;
+  left: -208.48px;
+  top: 165.27px;
+  object-fit: cover;
+}
+.title {
+  color: var(--background-white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 64px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 101px;
+  top: 424px;
+  width: 573.17px;
+  height: 228.49px;
+}
+.banners {
+  position: absolute;
+  inset: 0;
+}
+.banner {
+  width: 417.94px;
+  height: 358.31px;
+  position: static;
+}
+.base {
+  width: 27.86%;
+  height: 6.03%;
+  position: absolute;
+  right: 65.12%;
+  left: 7.02%;
+  bottom: 79.35%;
+  top: 14.62%;
+  overflow: visible;
+}
+.image-product {
+  background: var(--image-product-woman-bag-3, undefined);
+  border-radius: 5px;
+  width: 417.94px;
+  height: 358.31px;
+  position: absolute;
+  left: 105.24px;
+  top: 726.18px;
+  object-fit: cover;
+}
+.pic {
+  width: 0.72px;
+  height: 0.72px;
+  position: static;
+}
+.i-phone-6-s-discover-desktop-08-i-os-9 {
+  width: 0.05%;
+  height: 0.01%;
+  position: absolute;
+  right: 86.03%;
+  left: 13.92%;
+  bottom: 84.69%;
+  top: 15.3%;
+  object-fit: cover;
+}
+.fs-quilted-maxi-cross-bag {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  right: 76.01%;
+  left: 10.51%;
+  width: 13.48%;
+  bottom: 83.65%;
+  top: 15.18%;
+  height: 1.17%;
+}
+._299-43 {
+  color: var(--primary-blue, #40bfff);
+  text-align: left;
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 180%;
+  font-weight: 700;
+  position: absolute;
+  left: 383px;
+  top: 1003.71px;
+  width: 117.82px;
+  height: 39.29px;
+}
+.discount {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 157.67px;
+  top: 999.08px;
+  overflow: hidden;
+}
+._534-33 {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  text-decoration: line-through;
+  position: relative;
+}
+._24-off {
+  color: var(--primary-red, #fb7181);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+  width: 75.54px;
+}
+.banner2 {
+  width: 27.8%;
+  height: 6.85%;
+  position: absolute;
+  right: 9.46%;
+  left: 62.74%;
+  bottom: 78.52%;
+  top: 14.62%;
+  overflow: visible;
+}
+.banner3 {
+  width: 27.86%;
+  height: 7.49%;
+  position: absolute;
+  right: 37.26%;
+  left: 34.88%;
+  bottom: 78.52%;
+  top: 13.99%;
+  overflow: visible;
+}
+.image-product2 {
+  background: var(--image-product-shoes-4, undefined);
+  border-radius: 5px;
+  width: 408.57px;
+  height: 356.96px;
+  position: absolute;
+  left: 949.54px;
+  top: 727.53px;
+  object-fit: cover;
+}
+.image-product3 {
+  background: var(--image-product-shoes-1, undefined);
+  border-radius: 5px;
+  width: 434.36px;
+  height: 354.01px;
+  position: absolute;
+  left: 523.18px;
+  top: 730.48px;
+  object-fit: cover;
+}
+.best-sellers {
+  position: absolute;
+  inset: 0;
+}
+.items-grid {
+  width: 1315px;
+  height: 815px;
+  position: static;
+}
+.item {
+  width: 1209.79px;
+  height: 388px;
+  position: static;
+}
+.rectangle-1-copy-5 {
+  width: 20.07%;
+  height: 7.8%;
+  position: absolute;
+  right: 74.37%;
+  left: 5.57%;
+  bottom: 66.35%;
+  top: 25.85%;
+  overflow: visible;
+}
+.rectangle-1-copy-18 {
+  width: 17.13%;
+  height: 0.02%;
+  position: absolute;
+  right: 75.83%;
+  left: 7.03%;
+  bottom: 69.34%;
+  top: 30.64%;
+  overflow: visible;
+}
+.rate {
+  width: 8.24%;
+  height: 0.3%;
+  position: absolute;
+  right: 80.86%;
+  left: 10.9%;
+  bottom: 67.47%;
+  top: 32.22%;
+  overflow: visible;
+}
+.rate2 {
+  width: 8.24%;
+  height: 0.3%;
+  position: absolute;
+  right: 58.56%;
+  left: 33.2%;
+  bottom: 67.37%;
+  top: 32.33%;
+  overflow: visible;
+}
+.rate3 {
+  width: 8.24%;
+  height: 0.3%;
+  position: absolute;
+  right: 14.11%;
+  left: 77.65%;
+  bottom: 67.37%;
+  top: 32.33%;
+  overflow: visible;
+}
+._50061505-575246 {
+  width: 0.07%;
+  height: 0.02%;
+  position: absolute;
+  right: 94.7%;
+  left: 5.23%;
+  bottom: 73.66%;
+  top: 26.32%;
+  object-fit: cover;
+}
+.item2 {
+  width: 304px;
+  height: 388px;
+  position: absolute;
+  left: 749.5px;
+  top: 1286.17px;
+  overflow: visible;
+}
+.item3 {
+  width: 312px;
+  height: 389px;
+  position: absolute;
+  left: 747.5px;
+  top: 1708.17px;
+  overflow: visible;
+}
+.item4 {
+  width: 301px;
+  height: 389px;
+  position: static;
+}
+.rectangle-1-copy-52 {
+  width: 20.07%;
+  height: 7.82%;
+  position: absolute;
+  right: 74.37%;
+  left: 5.57%;
+  bottom: 57.85%;
+  top: 34.34%;
+  overflow: visible;
+}
+.rectangle-1-copy-182 {
+  width: 17.13%;
+  height: 0.02%;
+  position: absolute;
+  right: 75.83%;
+  left: 7.03%;
+  bottom: 60.86%;
+  top: 39.12%;
+  overflow: visible;
+}
+._50061505-5752462 {
+  width: 0.07%;
+  height: 0.02%;
+  position: absolute;
+  right: 94.23%;
+  left: 5.7%;
+  bottom: 65.14%;
+  top: 34.84%;
+  object-fit: cover;
+}
+.item5 {
+  width: 301px;
+  height: 388px;
+  position: absolute;
+  left: 1086.5px;
+  top: 1286.17px;
+  overflow: visible;
+}
+.item6 {
+  width: 312px;
+  height: 389px;
+  position: absolute;
+  left: 1081.5px;
+  top: 1708.17px;
+  overflow: visible;
+}
+.item7 {
+  width: 312px;
+  height: 389px;
+  position: absolute;
+  left: 410.5px;
+  top: 1712.17px;
+  overflow: visible;
+}
+.item8 {
+  width: 301px;
+  height: 388px;
+  position: absolute;
+  left: 417.5px;
+  top: 1286.17px;
+  overflow: visible;
+}
+.best-seller {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  right: 45.2%;
+  left: 41.13%;
+  width: 13.67%;
+  bottom: 75.86%;
+  top: 23.08%;
+  height: 1.07%;
+}
+.tabs {
+  width: 627px;
+  height: 33px;
+  position: static;
+}
+.all-bags-sneakers-belt-sunglasses {
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 28.8%;
+  left: 29.4%;
+  width: 41.8%;
+  bottom: 74.67%;
+  top: 24.67%;
+  height: 0.66%;
+}
+.all-bags-sneakers-belt-sunglasses-span {
+  color: #33a0ff;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+.all-bags-sneakers-belt-sunglasses-span2 {
+  color: #262626;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+.underline {
+  width: 1.67%;
+  height: 0.06%;
+  position: absolute;
+  right: 68.9%;
+  left: 29.43%;
+  bottom: 74.67%;
+  top: 25.27%;
+  overflow: visible;
+}
+.link {
+  width: 115px;
+  height: 33px;
+  position: static;
+}
+.load-more {
+  color: #33a0ff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 46.23%;
+  left: 46.1%;
+  width: 7.67%;
+  bottom: 56.68%;
+  top: 42.72%;
+  height: 0.6%;
+}
+.rectangle-14 {
+  width: 7.67%;
+  height: 0.06%;
+  position: absolute;
+  right: 46.23%;
+  left: 46.1%;
+  bottom: 56.62%;
+  top: 43.32%;
+  overflow: visible;
+}
+.banner4 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1-copy-10 {
+  width: 128%;
+  height: 12.06%;
+  position: absolute;
+  right: -14%;
+  left: -14%;
+  bottom: 42.73%;
+  top: 45.21%;
+  overflow: visible;
+}
+.rectangle-1-copy-19 {
+  width: 128%;
+  height: 0.02%;
+  position: absolute;
+  right: -14%;
+  left: -14%;
+  bottom: 54.77%;
+  top: 45.21%;
+  overflow: visible;
+}
+.content {
+  width: 592px;
+  height: 274.45px;
+  position: static;
+}
+.adidas-men-running-sneakers {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 55px;
+  font-weight: 500;
+  position: absolute;
+  right: 54.57%;
+  left: 7.37%;
+  width: 38.07%;
+  bottom: 48.19%;
+  top: 48.48%;
+  height: 3.34%;
+}
+.performance-and-design-taken-right-to-the-edge {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 53.39%;
+  left: 7.15%;
+  width: 39.47%;
+  bottom: 46.99%;
+  top: 52.28%;
+  height: 0.72%;
+}
+.link2 {
+  width: 111px;
+  height: 37px;
+  position: static;
+}
+.shop-now {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 85.23%;
+  left: 7.37%;
+  width: 7.4%;
+  bottom: 46.15%;
+  top: 53.25%;
+  height: 0.6%;
+}
+.rectangle-142 {
+  width: 5%;
+  height: 0.06%;
+  position: absolute;
+  right: 87.63%;
+  left: 7.37%;
+  bottom: 46.01%;
+  top: 53.93%;
+  overflow: visible;
+}
+.pic2 {
+  width: 1.17px;
+  height: 1.17px;
+  position: static;
+}
+.i-phone-6-s-discover-desktop-08-i-os-92 {
+  width: 0.08%;
+  height: 0.02%;
+  position: absolute;
+  right: 45.59%;
+  left: 54.33%;
+  bottom: 56.62%;
+  top: 43.36%;
+  object-fit: cover;
+}
+.why-us {
+  position: absolute;
+  inset: 0;
+}
+.group-14 {
+  width: 188.68px;
+  height: 162.68px;
+  position: static;
+}
+._100-refund {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  position: absolute;
+  right: 44.58%;
+  left: 42.84%;
+  width: 12.58%;
+  bottom: 37.41%;
+  top: 61.76%;
+  height: 0.83%;
+}
+.refund {
+  width: 68.81px;
+  height: 78.17px;
+  position: absolute;
+  left: 702.57px;
+  top: 2951.13px;
+  overflow: visible;
+}
+.group-15 {
+  width: 190.21px;
+  height: 164.21px;
+  position: static;
+}
+.support-24-7 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  position: absolute;
+  right: 14.49%;
+  left: 72.82%;
+  width: 12.68%;
+  bottom: 37.38%;
+  top: 61.79%;
+  height: 0.83%;
+}
+.support {
+  width: 4.51%;
+  height: 1.79%;
+  position: absolute;
+  right: 19.32%;
+  left: 76.17%;
+  bottom: 38.9%;
+  top: 59.32%;
+  overflow: visible;
+}
+.group-13 {
+  width: 193.29px;
+  height: 161.16px;
+  position: static;
+}
+.free-shipping {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  position: absolute;
+  right: 74.36%;
+  left: 12.76%;
+  width: 12.89%;
+  bottom: 37.54%;
+  top: 61.63%;
+  height: 0.83%;
+}
+.shipping {
+  width: 6.72%;
+  height: 1.32%;
+  position: absolute;
+  right: 77.75%;
+  left: 15.54%;
+  bottom: 39.46%;
+  top: 59.22%;
+  overflow: visible;
+}
+.featured-dproducts {
+  position: absolute;
+  inset: 0;
+}
+.featured-products {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  right: 37.19%;
+  left: 38.08%;
+  width: 24.73%;
+  bottom: 23.99%;
+  top: 74.95%;
+  height: 1.07%;
+}
+.group-20 {
+  width: 476px;
+  height: 188px;
+  position: static;
+}
+.rectangle-1-copy-25 {
+  width: 10.27%;
+  height: 3.1%;
+  position: absolute;
+  right: 82.23%;
+  left: 7.5%;
+  bottom: 19.42%;
+  top: 77.49%;
+  overflow: visible;
+}
+.rate4 {
+  width: 5.73%;
+  height: 0.24%;
+  position: absolute;
+  right: 74.84%;
+  left: 19.43%;
+  bottom: 20.89%;
+  top: 78.87%;
+  overflow: visible;
+}
+.group-17 {
+  width: 104.27px;
+  height: 30px;
+  position: static;
+}
+._499 {
+  color: #ff4858;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 77.12%;
+  left: 19.42%;
+  width: 3.47%;
+  bottom: 19.94%;
+  top: 79.46%;
+  height: 0.6%;
+}
+._599 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 73.63%;
+  left: 23.17%;
+  width: 3.2%;
+  bottom: 20%;
+  top: 79.52%;
+  height: 0.48%;
+}
+.line-1 {
+  width: 3.09%;
+  height: 0%;
+  position: absolute;
+  right: 73.68%;
+  left: 23.23%;
+  bottom: 20.19%;
+  top: 79.81%;
+  overflow: visible;
+}
+.c-04297141 {
+  width: 16.6%;
+  height: 3.78%;
+  position: absolute;
+  right: 79.1%;
+  left: 4.3%;
+  bottom: 19.1%;
+  top: 77.12%;
+  overflow: visible;
+}
+.blue-swade-nike-sneakers {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 63.97%;
+  left: 19.42%;
+  width: 16.62%;
+  bottom: 21.46%;
+  top: 77.45%;
+  height: 1.09%;
+}
+.group-23 {
+  width: 476px;
+  height: 188px;
+  position: static;
+}
+.rectangle-1-copy-252 {
+  width: 10.27%;
+  height: 3.1%;
+  position: absolute;
+  right: 53.26%;
+  left: 36.47%;
+  bottom: 19.42%;
+  top: 77.49%;
+  overflow: visible;
+}
+.rate5 {
+  width: 5.73%;
+  height: 0.24%;
+  position: absolute;
+  right: 45.87%;
+  left: 48.4%;
+  bottom: 20.89%;
+  top: 78.87%;
+  overflow: visible;
+}
+._4992 {
+  color: #ff4858;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 48.15%;
+  left: 48.39%;
+  width: 3.47%;
+  bottom: 19.94%;
+  top: 79.46%;
+  height: 0.6%;
+}
+._5992 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 44.66%;
+  left: 52.14%;
+  width: 3.2%;
+  bottom: 20%;
+  top: 79.52%;
+  height: 0.48%;
+}
+.line-12 {
+  width: 3.09%;
+  height: 0%;
+  position: absolute;
+  right: 44.71%;
+  left: 52.2%;
+  bottom: 20.19%;
+  top: 79.81%;
+  overflow: visible;
+}
+.c-042971412 {
+  width: 16.6%;
+  height: 3.78%;
+  position: absolute;
+  right: 50.13%;
+  left: 33.27%;
+  bottom: 19.1%;
+  top: 77.12%;
+  overflow: visible;
+}
+.blue-swade-nike-sneakers2 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 34.99%;
+  left: 48.39%;
+  width: 16.62%;
+  bottom: 21.46%;
+  top: 77.45%;
+  height: 1.09%;
+}
+.group-24 {
+  width: 476px;
+  height: 188px;
+  position: static;
+}
+.rectangle-1-copy-253 {
+  width: 10.27%;
+  height: 3.1%;
+  position: absolute;
+  right: 24.29%;
+  left: 65.44%;
+  bottom: 19.42%;
+  top: 77.49%;
+  overflow: visible;
+}
+.rate6 {
+  width: 5.73%;
+  height: 0.24%;
+  position: absolute;
+  right: 16.9%;
+  left: 77.37%;
+  bottom: 20.89%;
+  top: 78.87%;
+  overflow: visible;
+}
+._4993 {
+  color: #ff4858;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 19.18%;
+  left: 77.36%;
+  width: 3.47%;
+  bottom: 19.94%;
+  top: 79.46%;
+  height: 0.6%;
+}
+._5993 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 15.69%;
+  left: 81.11%;
+  width: 3.2%;
+  bottom: 20%;
+  top: 79.52%;
+  height: 0.48%;
+}
+.line-13 {
+  width: 3.09%;
+  height: 0%;
+  position: absolute;
+  right: 15.74%;
+  left: 81.17%;
+  bottom: 20.19%;
+  top: 79.81%;
+  overflow: visible;
+}
+.c-042971413 {
+  width: 16.6%;
+  height: 3.78%;
+  position: absolute;
+  right: 21.16%;
+  left: 62.24%;
+  bottom: 19.1%;
+  top: 77.12%;
+  overflow: visible;
+}
+.blue-swade-nike-sneakers3 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 6.02%;
+  left: 77.36%;
+  width: 16.62%;
+  bottom: 21.46%;
+  top: 77.45%;
+  height: 1.09%;
+}
+.group-515 {
+  position: absolute;
+  inset: 0;
+}
+.nav {
+  width: 70px;
+  height: 36px;
+  position: static;
+}
+.home {
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 58.73%;
+  left: 36.61%;
+  width: 4.67%;
+  bottom: 97.29%;
+  top: 1.99%;
+  height: 0.72%;
+}
+.home-span {
+  color: #40bfff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.home-span2 {
+  color: #22262a;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.nav2 {
+  width: 647.62px;
+  height: 36px;
+  position: static;
+}
+.bags {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 47.87%;
+  left: 47.8%;
+  width: 4.33%;
+  bottom: 97.29%;
+  top: 1.99%;
+  height: 0.72%;
+}
+.sneakers {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 33.41%;
+  left: 58.66%;
+  width: 7.93%;
+  bottom: 97.29%;
+  top: 1.99%;
+  height: 0.72%;
+}
+.belt {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 23.42%;
+  left: 73.12%;
+  width: 3.47%;
+  bottom: 97.29%;
+  top: 1.99%;
+  height: 0.72%;
+}
+.contact {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 9.03%;
+  left: 83.11%;
+  width: 7.87%;
+  bottom: 97.29%;
+  top: 1.99%;
+  height: 0.72%;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+.divider {
+  width: 100.03%;
+  height: 0.04%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 98.62%;
+  top: 1.34%;
+  overflow: visible;
+}
+.cart {
+  width: 137px;
+  height: 25px;
+  position: static;
+}
+.items {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 16.89%;
+  left: 79.57%;
+  width: 3.53%;
+  bottom: 98.98%;
+  top: 0.54%;
+  height: 0.48%;
+}
+._0-00 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: absolute;
+  right: 11.29%;
+  left: 85.24%;
+  width: 3.47%;
+  bottom: 98.96%;
+  top: 0.56%;
+  height: 0.48%;
+}
+.language {
+  width: 38.26px;
+  height: 24px;
+  position: static;
+}
+.en {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.33%;
+  left: 6.93%;
+  width: 1.73%;
+  bottom: 98.94%;
+  top: 0.58%;
+  height: 0.48%;
+}
+.arrow-down {
+  width: 0.44%;
+  height: 0.08%;
+  position: absolute;
+  right: 90.52%;
+  left: 9.04%;
+  bottom: 99.14%;
+  top: 0.78%;
+  overflow: visible;
+}
+.currency {
+  width: 50.85px;
+  height: 24px;
+  position: static;
+}
+.usd {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 86.97%;
+  left: 10.36%;
+  width: 2.67%;
+  bottom: 98.94%;
+  top: 0.58%;
+  height: 0.48%;
+}
+.arrow-down2 {
+  width: 0.44%;
+  height: 0.08%;
+  position: absolute;
+  right: 86.25%;
+  left: 13.31%;
+  bottom: 99.12%;
+  top: 0.8%;
+  overflow: visible;
+}
+.account {
+  width: 113.53px;
+  height: 24px;
+  position: static;
+}
+.my-profile {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 26.3%;
+  left: 67.9%;
+  width: 5.8%;
+  bottom: 98.97%;
+  top: 0.55%;
+  height: 0.48%;
+}
+.profile-close-2 {
+  width: 1.33%;
+  height: 0.4%;
+  position: absolute;
+  right: 32.54%;
+  left: 66.13%;
+  bottom: 99.01%;
+  top: 0.59%;
+  overflow: visible;
+}
+.search-icon {
+  width: 1.4%;
+  height: 0.42%;
+  position: absolute;
+  right: 9.46%;
+  left: 89.14%;
+  bottom: 99%;
+  top: 0.58%;
+  overflow: visible;
+}
+.cart2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-394 {
+  background: var(--background-white, #ffffff);
+  width: 5%;
+  height: 1.19%;
+  position: absolute;
+  right: 20.86%;
+  left: 74.14%;
+  bottom: 98.62%;
+  top: 0.2%;
+}
+.system-icon-24-px-cart {
+  width: 1.6%;
+  height: 0.48%;
+  position: absolute;
+  right: 22.53%;
+  left: 75.87%;
+  bottom: 99%;
+  top: 0.52%;
+  overflow: hidden;
+}
+.group7 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.notification-mark {
+  width: 1.33%;
+  height: 0.4%;
+  position: absolute;
+  right: 21.86%;
+  left: 76.8%;
+  bottom: 99.28%;
+  top: 0.32%;
+}
+.ellipse {
+  background: var(--primary-red, #fb7181);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--background-white, #ffffff);
+  border-width: 2px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+._2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --caption-normalbold-font-family,
+    "Poppins-Bold",
+    sans-serif
+  );
+  font-size: var(--caption-normalbold-font-size, 10px);
+  line-height: var(--caption-normalbold-line-height, 150%);
+  font-weight: var(--caption-normalbold-font-weight, 700);
+  position: absolute;
+  right: 35%;
+  left: 35%;
+  width: 30%;
+  bottom: 10%;
+  top: 15%;
+  height: 75%;
+}
+.discount2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 668.52px;
+  top: 1038.5px;
+  overflow: hidden;
+}
+._24-off2 {
+  color: var(--primary-red, #fb7181);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+  width: 80.95px;
+}
+._299-432 {
+  color: var(--primary-blue, #40bfff);
+  text-align: left;
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 180%;
+  font-weight: 700;
+  position: absolute;
+  left: 806.15px;
+  top: 750.52px;
+}
+._299-433 {
+  color: var(--primary-blue, #40bfff);
+  text-align: left;
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 180%;
+  font-weight: 700;
+  position: absolute;
+  left: 1209.05px;
+  top: 1016px;
+}
+.fs-nike-air-max-270-react {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 573.38px;
+  top: 755.52px;
+  width: 178.24px;
+  height: 57.47px;
+}
+.fs-nike-air-max-270-react2 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 1002.18px;
+  top: 759.48px;
+  width: 171.65px;
+  height: 58.09px;
+}
+.discount3 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 1002.39px;
+  top: 840px;
+  overflow: hidden;
+}
+._534-332 {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  text-decoration: line-through;
+  position: relative;
+}
+._24-off3 {
+  color: var(--primary-red, #fb7181);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+  width: 76.23px;
+}
+.image-product4 {
+  background: var(--image-product-shoes-3, undefined);
+  border-radius: 5px;
+  width: 299.5px;
+  height: 272.5px;
+  position: absolute;
+  left: 83.5px;
+  top: 1287.67px;
+  object-fit: cover;
+}
+.nike-air-max-270-react {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 124.33px;
+  top: 1569.72px;
+  width: 219.33px;
+}
+.nike-air-max-270-react2 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 458.83px;
+  top: 1574.95px;
+  width: 219.33px;
+}
+.nike-air-max-270-react3 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 1125.58px;
+  top: 1574.95px;
+  width: 219.33px;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 125.45px;
+  top: 1624.17px;
+  overflow: hidden;
+}
+._299-434 {
+  color: var(--primary-blue, #40bfff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+  font-weight: 700;
+  position: relative;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 459.95px;
+  top: 1629.4px;
+  overflow: hidden;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1126.7px;
+  top: 1629.4px;
+  overflow: hidden;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 214.58px;
+  top: 1632.67px;
+  overflow: hidden;
+}
+._534-333 {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  text-decoration: line-through;
+  position: relative;
+}
+._24-off4 {
+  color: var(--primary-red, #fb7181);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+}
+.frame-16 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 549.08px;
+  top: 1637.9px;
+  overflow: hidden;
+}
+.group-476 {
+  position: absolute;
+  inset: 0;
+}
+.rate7 {
+  width: 8.24%;
+  height: 0.3%;
+  position: absolute;
+  right: 36.06%;
+  left: 55.7%;
+  bottom: 67.37%;
+  top: 32.33%;
+  overflow: visible;
+}
+.nike-air-max-270-react4 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 796.33px;
+  top: 1574.95px;
+  width: 219.33px;
+}
+.frame-17 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 797.45px;
+  top: 1629.4px;
+  overflow: hidden;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 886.58px;
+  top: 1637.9px;
+  overflow: hidden;
+}
+.group-477 {
+  position: absolute;
+  inset: 0;
+}
+.rate8 {
+  width: 8.24%;
+  height: 0.3%;
+  position: absolute;
+  right: 35.46%;
+  left: 56.3%;
+  bottom: 58.78%;
+  top: 40.91%;
+  overflow: visible;
+}
+.nike-air-max-270-react5 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 805.42px;
+  top: 2002.06px;
+  width: 219.33px;
+}
+.frame-172 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 806.53px;
+  top: 2056.51px;
+  overflow: hidden;
+}
+.frame-182 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 895.67px;
+  top: 2065.01px;
+  overflow: hidden;
+}
+.group-479 {
+  position: absolute;
+  inset: 0;
+}
+.rate9 {
+  width: 8.24%;
+  height: 0.3%;
+  position: absolute;
+  right: 59.13%;
+  left: 32.63%;
+  bottom: 58.78%;
+  top: 40.91%;
+  overflow: visible;
+}
+.nike-air-max-270-react6 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 450.33px;
+  top: 2002.06px;
+  width: 219.33px;
+}
+.frame-173 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 451.45px;
+  top: 2056.51px;
+  overflow: hidden;
+}
+.frame-183 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 540.58px;
+  top: 2065.01px;
+  overflow: hidden;
+}
+.group-480 {
+  position: absolute;
+  inset: 0;
+}
+.rate10 {
+  width: 8.24%;
+  height: 0.3%;
+  position: absolute;
+  right: 80.86%;
+  left: 10.9%;
+  bottom: 58.78%;
+  top: 40.91%;
+  overflow: visible;
+}
+.nike-air-max-270-react7 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 124.33px;
+  top: 2002.06px;
+  width: 219.33px;
+}
+.frame-174 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 125.45px;
+  top: 2056.51px;
+  overflow: hidden;
+}
+.frame-184 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 214.58px;
+  top: 2065.01px;
+  overflow: hidden;
+}
+.group-478 {
+  position: absolute;
+  inset: 0;
+}
+.rate11 {
+  width: 8.24%;
+  height: 0.3%;
+  position: absolute;
+  right: 14%;
+  left: 77.76%;
+  bottom: 58.78%;
+  top: 40.91%;
+  overflow: visible;
+}
+.nike-air-max-270-react8 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: 1127.33px;
+  top: 2002.06px;
+  width: 219.33px;
+}
+.frame-175 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1128.45px;
+  top: 2056.51px;
+  overflow: hidden;
+}
+.frame-185 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 1217.58px;
+  top: 2065.01px;
+  overflow: hidden;
+}
+.frame-20 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: 1215.83px;
+  top: 1637.9px;
+  overflow: hidden;
+}
+.label {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-20 {
+  width: 4.27%;
+  height: 0.66%;
+  position: absolute;
+  right: 90.17%;
+  left: 5.57%;
+  bottom: 73.45%;
+  top: 25.88%;
+  overflow: visible;
+}
+.hot {
+  color: #ffffff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.11%;
+  left: 6.42%;
+  width: 2.47%;
+  bottom: 73.57%;
+  top: 25.98%;
+  height: 0.44%;
+}
+.image-product5 {
+  background: var(--image-product-woman-bag-1, undefined);
+  border-radius: 5px;
+  width: 301px;
+  height: 276.5px;
+  position: absolute;
+  left: 417.5px;
+  top: 1283.67px;
+  object-fit: cover;
+}
+.image-product6 {
+  background: var(--image-product-woman-bag-2, undefined);
+  border-radius: 5px;
+  width: 307px;
+  height: 276.5px;
+  position: absolute;
+  left: 752.5px;
+  top: 1283.67px;
+  object-fit: cover;
+}
+.image-product7 {
+  background: var(--image-product-shoes-2, undefined);
+  border-radius: 5px;
+  width: 294.5px;
+  height: 272.5px;
+  position: absolute;
+  left: 1088px;
+  top: 1287.67px;
+  object-fit: cover;
+}
+.image-product8 {
+  background: var(--image-product-shoes-2, undefined);
+  border-radius: 5px;
+  width: 305.42px;
+  height: 279.12px;
+  position: absolute;
+  left: 1088.08px;
+  top: 1708.17px;
+  object-fit: cover;
+}
+.item-hover {
+  width: 18.53%;
+  height: 4.4%;
+  position: absolute;
+  right: 30.27%;
+  left: 51.19%;
+  bottom: 69.24%;
+  top: 26.36%;
+  overflow: visible;
+}
+.product-picture {
+  position: absolute;
+  inset: 0;
+}
+.product-picture-01 {
+  background: var(--product-detail-image-3, undefined);
+  border-radius: 5px;
+  width: 298px;
+  height: 279.12px;
+  position: absolute;
+  left: 754px;
+  top: 1708.17px;
+  object-fit: cover;
+}
+.product-picture-02 {
+  background: var(--product-detail-image-1, undefined);
+  border-radius: 8px;
+  width: 301px;
+  height: 279.12px;
+  position: absolute;
+  left: 83.5px;
+  top: 1708.17px;
+  object-fit: cover;
+}
+.product-picture-03 {
+  background: var(--product-detail-image-2, undefined);
+  border-radius: 8px;
+  width: 310.5px;
+  height: 273.62px;
+  position: absolute;
+  left: 412px;
+  top: 1713.67px;
+  object-fit: cover;
+}
+.shoes-shoe-png-transparent-shoe-images-pluspng-17-1 {
+  width: 794.56px;
+  height: 598.94px;
+  position: absolute;
+  left: 1483.78px;
+  top: 2157.74px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+  object-fit: cover;
+}
+.group-481 {
+  position: absolute;
+  inset: 0;
+}
+.nike-logo-emblem-logotype-1 {
+  width: 144.9px;
+  height: 52.18px;
+  position: absolute;
+  left: 141.12px;
+  top: 3505.67px;
+  object-fit: cover;
+}
+._01-jan-2015 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 71.59%;
+  left: 21.41%;
+  width: 7%;
+  bottom: 29.91%;
+  top: 69.55%;
+  height: 0.54%;
+}
+.fashion-industry {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  right: 66.19%;
+  left: 21.41%;
+  width: 12.4%;
+  bottom: 29.2%;
+  top: 70.13%;
+  height: 0.66%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 65.42%;
+  left: 21.41%;
+  width: 13.17%;
+  bottom: 27.27%;
+  top: 70.8%;
+  height: 1.94%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry2 {
+  color: #22262a;
+  text-align: center;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 74.53%;
+  left: 12.3%;
+  width: 13.17%;
+  bottom: 35.36%;
+  top: 62.7%;
+  height: 1.94%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry3 {
+  color: #22262a;
+  text-align: center;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 44.39%;
+  left: 42.44%;
+  width: 13.17%;
+  bottom: 35.36%;
+  top: 62.7%;
+  height: 1.94%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry4 {
+  color: #22262a;
+  text-align: center;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 14.25%;
+  left: 72.58%;
+  width: 13.17%;
+  bottom: 35.36%;
+  top: 62.7%;
+  height: 1.94%;
+}
+.group-482 {
+  position: absolute;
+  inset: 0;
+}
+._01-jan-20152 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 45.01%;
+  left: 47.99%;
+  width: 7%;
+  bottom: 29.91%;
+  top: 69.55%;
+  height: 0.54%;
+}
+.best-design-tools {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  right: 39.01%;
+  left: 47.99%;
+  width: 13%;
+  bottom: 29.2%;
+  top: 70.13%;
+  height: 0.66%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry5 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 38.84%;
+  left: 47.99%;
+  width: 13.17%;
+  bottom: 27.27%;
+  top: 70.8%;
+  height: 1.94%;
+}
+.group-483 {
+  position: absolute;
+  inset: 0;
+}
+._01-jan-20153 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 15.9%;
+  left: 77.1%;
+  width: 7%;
+  bottom: 29.91%;
+  top: 69.55%;
+  height: 0.54%;
+}
+.hr-community {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  right: 11.57%;
+  left: 77.1%;
+  width: 11.33%;
+  bottom: 29.2%;
+  top: 70.13%;
+  height: 0.66%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry6 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 9.73%;
+  left: 77.1%;
+  width: 13.17%;
+  bottom: 27.27%;
+  top: 70.8%;
+  height: 1.94%;
+}
+.figma-1-logo-1 {
+  width: 116.95px;
+  height: 87.72px;
+  position: absolute;
+  left: 592.13px;
+  top: 3492.3px;
+  object-fit: cover;
+}
+.footer {
+  position: absolute;
+  inset: 0;
+}
+.group-484 {
+  width: 134.32px;
+  height: 44px;
+  position: static;
+}
+.group-490 {
+  width: 134.32px;
+  height: 44px;
+  position: static;
+}
+.icon3 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 104px;
+  top: 95px;
+}
+.group-4003 {
+  height: auto;
+  position: absolute;
+  left: 31.78px;
+  top: 12.22px;
+  transform: translate(-19.56px, 0px);
+  overflow: visible;
+}
+.e-comm {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 84.11%;
+  left: 10.29%;
+  width: 5.6%;
+  bottom: 97.35%;
+  top: 2.11%;
+  height: 0.54%;
+}
+.rectangle-437 {
+  background: #bcddfe;
+  width: 1500px;
+  height: 680.59px;
+  position: absolute;
+  left: 0.09px;
+  top: 4294.41px;
+}
+.bottom {
+  width: 1196.6px;
+  height: 56.92px;
+  position: static;
+}
+.rectangle-1-copy-35 {
+  width: 78.72%;
+  height: 0.02%;
+  position: absolute;
+  right: 10.26%;
+  left: 11.01%;
+  bottom: 2.21%;
+  top: 97.77%;
+  overflow: visible;
+}
+.brands {
+  width: 212.44px;
+  height: 25.34px;
+  position: static;
+}
+.shape-327 {
+  width: 2.56%;
+  height: 0.51%;
+  position: absolute;
+  right: 11.97%;
+  left: 85.48%;
+  bottom: 1.09%;
+  top: 98.4%;
+  overflow: visible;
+}
+.shape-328 {
+  width: 1.75%;
+  height: 0.18%;
+  position: absolute;
+  right: 12.39%;
+  left: 85.86%;
+  bottom: 1.25%;
+  top: 98.57%;
+  overflow: visible;
+}
+.shape-3282 {
+  width: 0.34%;
+  height: 0.09%;
+  position: absolute;
+  right: 13.8%;
+  left: 85.85%;
+  bottom: 1.33%;
+  top: 98.57%;
+  overflow: visible;
+}
+.paypal {
+  width: 2.54%;
+  height: 0.51%;
+  position: absolute;
+  right: 15.85%;
+  left: 81.61%;
+  bottom: 1.09%;
+  top: 98.41%;
+  overflow: visible;
+}
+.group-19 {
+  width: 38.3px;
+  height: 25.14px;
+  position: static;
+}
+.shape-3272 {
+  width: 2.55%;
+  height: 0.51%;
+  position: absolute;
+  right: 19.72%;
+  left: 77.73%;
+  bottom: 1.09%;
+  top: 98.4%;
+  overflow: visible;
+}
+.shape-329 {
+  width: 1.2%;
+  height: 0.36%;
+  position: absolute;
+  right: 19.96%;
+  left: 78.85%;
+  bottom: 1.16%;
+  top: 98.48%;
+  overflow: visible;
+}
+.shape-3292 {
+  width: 1.2%;
+  height: 0.36%;
+  position: absolute;
+  right: 20.87%;
+  left: 77.93%;
+  bottom: 1.16%;
+  top: 98.48%;
+  overflow: visible;
+}
+.master-card {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 6px;
+  font-weight: 400;
+  position: absolute;
+  right: 19.97%;
+  left: 77.89%;
+  width: 2.13%;
+  bottom: 1.29%;
+  top: 98.57%;
+  height: 0.14%;
+  transform-origin: 0 0;
+  transform: rotate(7.313deg) scale(1, 1);
+}
+.western-union {
+  width: 2.55%;
+  height: 0.51%;
+  position: absolute;
+  right: 23.57%;
+  left: 73.87%;
+  bottom: 1.09%;
+  top: 98.41%;
+  overflow: visible;
+}
+._2018-ecommerce-theme-by-www-bisenbaev-com {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 69.3%;
+  left: 9.96%;
+  width: 20.73%;
+  bottom: 1.19%;
+  top: 98.46%;
+  height: 0.34%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.32%;
+  left: 8.94%;
+  width: 14.74%;
+  bottom: 8.06%;
+  top: 90.43%;
+  height: 1.51%;
+}
+.group-485 {
+  width: 148.11px;
+  height: 109.27px;
+  position: static;
+}
+.contact-us {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 23.21%;
+  left: 70.05%;
+  width: 6.73%;
+  bottom: 9.81%;
+  top: 89.65%;
+  height: 0.54%;
+}
+.e-comm-4578-marmora-road-glasgow-d-04-89-gr {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 20.07%;
+  left: 70.05%;
+  width: 9.87%;
+  bottom: 8.16%;
+  top: 90.58%;
+  height: 1.27%;
+}
+.our-offers {
+  width: 1200.89px;
+  height: 145.69px;
+  position: static;
+}
+.group-486 {
+  width: 154.41px;
+  height: 129.98px;
+  position: static;
+}
+.our-offers2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 15.16%;
+  left: 78.7%;
+  width: 6.13%;
+  bottom: 5.8%;
+  top: 93.66%;
+  height: 0.54%;
+}
+.about-us-infomation-privacy-policy-terms-conditions {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 11%;
+  left: 78.87%;
+  width: 10.13%;
+  bottom: 3.73%;
+  top: 94.58%;
+  height: 1.69%;
+}
+.group-487 {
+  width: 152px;
+  height: 129.98px;
+  position: static;
+}
+.my-account {
+  width: 106px;
+  height: 27px;
+  position: static;
+}
+.my-account2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 36.76%;
+  left: 56.18%;
+  width: 7.07%;
+  bottom: 5.89%;
+  top: 93.57%;
+  height: 0.54%;
+}
+.about-us-infomation-privacy-policy-terms-conditions2 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 33.73%;
+  left: 56.14%;
+  width: 10.13%;
+  bottom: 3.82%;
+  top: 94.49%;
+  height: 1.69%;
+}
+.group-488 {
+  width: 152px;
+  height: 145.69px;
+  position: static;
+}
+.service {
+  width: 66px;
+  height: 27px;
+  position: static;
+}
+.service2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 63.06%;
+  left: 32.54%;
+  width: 4.4%;
+  bottom: 5.89%;
+  top: 93.57%;
+  height: 0.54%;
+}
+.about-us-infomation-privacy-policy-terms-conditions3 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 57.33%;
+  left: 32.54%;
+  width: 10.13%;
+  bottom: 3.51%;
+  top: 94.81%;
+  height: 1.69%;
+}
+.group-489 {
+  width: 152px;
+  height: 140.98px;
+  position: static;
+}
+.infomation {
+  width: 99px;
+  height: 27px;
+  position: static;
+}
+.infomation2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 84.46%;
+  left: 8.94%;
+  width: 6.6%;
+  bottom: 5.89%;
+  top: 93.57%;
+  height: 0.54%;
+}
+.about-us-infomation-privacy-policy-terms-conditions4 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 80.93%;
+  left: 8.94%;
+  width: 10.13%;
+  bottom: 3.6%;
+  top: 94.71%;
+  height: 1.69%;
+}
+.follow-us {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 50.16%;
+  left: 44.24%;
+  width: 5.6%;
+  bottom: 9.89%;
+  top: 89.57%;
+  height: 0.54%;
+}
+.e-comm2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 82.39%;
+  left: 12.01%;
+  width: 5.6%;
+  bottom: 10.03%;
+  top: 89.43%;
+  height: 0.54%;
+}
+.since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 42.56%;
+  left: 44.24%;
+  width: 13.2%;
+  bottom: 8.6%;
+  top: 90.5%;
+  height: 0.9%;
+}
+.twitter {
+  width: 0.98%;
+  height: 0.24%;
+  position: absolute;
+  right: 51.55%;
+  left: 47.47%;
+  bottom: 7.86%;
+  top: 91.9%;
+  overflow: visible;
+}
+.facebook {
+  width: 0.51%;
+  height: 0.3%;
+  position: absolute;
+  right: 55.15%;
+  left: 44.34%;
+  bottom: 7.84%;
+  top: 91.86%;
+  overflow: visible;
+}
+.icon4 {
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  left: 134.09px;
+  top: 4444.03px;
+}
+.group-4004 {
+  height: auto;
+  position: absolute;
+  left: 28.17px;
+  top: 10.83px;
+  transform: translate(-17.33px, 0px);
+  overflow: visible;
+}
+.frame-462 {
+  width: 3px;
+  height: 1px;
+  position: absolute;
+  left: 1331px;
+  top: 840px;
+  overflow: hidden;
+}
+.product {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1500px;
+  height: 2651px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-4372 {
+  background: #bcddfe;
+  width: 100%;
+  height: 25.67%;
+  position: absolute;
+  right: -0.16%;
+  left: 0.16%;
+  bottom: 0.01%;
+  top: 74.31%;
+}
+.rectangle-1-copy-352 {
+  width: 78.72%;
+  height: 0.04%;
+  position: absolute;
+  right: 9.72%;
+  left: 11.55%;
+  bottom: 4.16%;
+  top: 95.8%;
+  overflow: visible;
+}
+.shape-3273 {
+  width: 2.56%;
+  height: 0.95%;
+  position: absolute;
+  right: 11.43%;
+  left: 86.02%;
+  bottom: 2.06%;
+  top: 96.99%;
+  overflow: visible;
+}
+.shape-3283 {
+  width: 1.75%;
+  height: 0.33%;
+  position: absolute;
+  right: 11.85%;
+  left: 86.4%;
+  bottom: 2.36%;
+  top: 97.31%;
+  overflow: visible;
+}
+.shape-3284 {
+  width: 0.34%;
+  height: 0.18%;
+  position: absolute;
+  right: 13.26%;
+  left: 86.39%;
+  bottom: 2.51%;
+  top: 97.31%;
+  overflow: visible;
+}
+.paypal2 {
+  width: 2.54%;
+  height: 0.95%;
+  position: absolute;
+  right: 15.31%;
+  left: 82.15%;
+  bottom: 2.06%;
+  top: 97%;
+  overflow: visible;
+}
+.shape-3274 {
+  width: 2.55%;
+  height: 0.95%;
+  position: absolute;
+  right: 19.18%;
+  left: 78.27%;
+  bottom: 2.06%;
+  top: 96.99%;
+  overflow: visible;
+}
+.shape-3293 {
+  width: 1.2%;
+  height: 0.68%;
+  position: absolute;
+  right: 19.42%;
+  left: 79.39%;
+  bottom: 2.2%;
+  top: 97.13%;
+  overflow: visible;
+}
+.shape-3294 {
+  width: 1.2%;
+  height: 0.68%;
+  position: absolute;
+  right: 20.33%;
+  left: 78.47%;
+  bottom: 2.2%;
+  top: 97.13%;
+  overflow: visible;
+}
+.master-card2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 6px;
+  font-weight: 400;
+  position: absolute;
+  right: 19.43%;
+  left: 78.43%;
+  width: 2.13%;
+  bottom: 2.44%;
+  top: 97.3%;
+  height: 0.26%;
+  transform-origin: 0 0;
+  transform: rotate(7.313deg) scale(1, 1);
+}
+.western-union2 {
+  width: 2.55%;
+  height: 0.95%;
+  position: absolute;
+  right: 23.03%;
+  left: 74.41%;
+  bottom: 2.05%;
+  top: 97%;
+  overflow: visible;
+}
+._2018-ecommerce-theme-by-www-bisenbaev-com2 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 68.76%;
+  left: 10.5%;
+  width: 20.73%;
+  bottom: 2.26%;
+  top: 97.1%;
+  height: 0.64%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 75.78%;
+  left: 9.48%;
+  width: 14.74%;
+  bottom: 15.14%;
+  top: 82.03%;
+  height: 2.83%;
+}
+.contact-us2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 22.67%;
+  left: 70.59%;
+  width: 6.73%;
+  bottom: 18.42%;
+  top: 80.56%;
+  height: 1.02%;
+}
+.e-comm-4578-marmora-road-glasgow-d-04-89-gr2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 19.53%;
+  left: 70.59%;
+  width: 9.87%;
+  bottom: 15.32%;
+  top: 82.3%;
+  height: 2.38%;
+}
+.our-offers3 {
+  width: 1200.89px;
+  height: 146.42px;
+  position: static;
+}
+.our-offers4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 14.62%;
+  left: 79.24%;
+  width: 6.13%;
+  bottom: 10.9%;
+  top: 88.08%;
+  height: 1.02%;
+}
+.about-us-infomation-privacy-policy-terms-conditions5 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 10.46%;
+  left: 79.41%;
+  width: 10.13%;
+  bottom: 7.01%;
+  top: 89.82%;
+  height: 3.17%;
+}
+.my-account3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 36.22%;
+  left: 56.72%;
+  width: 7.07%;
+  bottom: 11.07%;
+  top: 87.91%;
+  height: 1.02%;
+}
+.about-us-infomation-privacy-policy-terms-conditions6 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 33.19%;
+  left: 56.68%;
+  width: 10.13%;
+  bottom: 7.19%;
+  top: 89.65%;
+  height: 3.17%;
+}
+.service3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 64.09%;
+  left: 31.51%;
+  width: 4.4%;
+  bottom: 11.28%;
+  top: 87.71%;
+  height: 1.02%;
+}
+.about-us-infomation-privacy-policy-terms-conditions7 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 58.35%;
+  left: 31.51%;
+  width: 10.13%;
+  bottom: 6.8%;
+  top: 90.03%;
+  height: 3.17%;
+}
+.infomation3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 83.92%;
+  left: 9.48%;
+  width: 6.6%;
+  bottom: 11.07%;
+  top: 87.91%;
+  height: 1.02%;
+}
+.about-us-infomation-privacy-policy-terms-conditions8 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 80.39%;
+  left: 9.48%;
+  width: 10.13%;
+  bottom: 6.77%;
+  top: 90.06%;
+  height: 3.17%;
+}
+.follow-us2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 50.84%;
+  left: 43.56%;
+  width: 5.6%;
+  bottom: 18.55%;
+  top: 80.43%;
+  height: 1.02%;
+}
+.e-comm3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 81.85%;
+  left: 12.55%;
+  width: 5.6%;
+  bottom: 18.84%;
+  top: 80.15%;
+  height: 1.02%;
+}
+.since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 43.24%;
+  left: 43.56%;
+  width: 13.2%;
+  bottom: 16.12%;
+  top: 82.19%;
+  height: 1.7%;
+}
+.twitter2 {
+  width: 0.98%;
+  height: 0.45%;
+  position: absolute;
+  right: 52.23%;
+  left: 46.8%;
+  bottom: 14.74%;
+  top: 84.81%;
+  overflow: visible;
+}
+.facebook2 {
+  width: 0.51%;
+  height: 0.57%;
+  position: absolute;
+  right: 55.82%;
+  left: 43.67%;
+  bottom: 14.7%;
+  top: 84.73%;
+  overflow: visible;
+}
+.icon5 {
+  width: 2.6%;
+  height: 1.47%;
+  position: absolute;
+  right: 87.92%;
+  left: 9.48%;
+  bottom: 18.57%;
+  top: 79.96%;
+}
+.group-4005 {
+  height: auto;
+  position: absolute;
+  left: 28.17px;
+  top: 10.83px;
+  transform: translate(-17.33px, 0px);
+  overflow: visible;
+}
+.group-494 {
+  position: absolute;
+  inset: 0;
+}
+.icon6 {
+  width: 2.93%;
+  height: 1.66%;
+  position: absolute;
+  right: 90.13%;
+  left: 6.93%;
+  bottom: 94.1%;
+  top: 4.24%;
+}
+.group-4006 {
+  height: auto;
+  position: absolute;
+  left: 31.78px;
+  top: 12.22px;
+  transform: translate(-19.56px, 0px);
+  overflow: visible;
+}
+.e-comm4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 84.11%;
+  left: 10.29%;
+  width: 5.6%;
+  bottom: 94.37%;
+  top: 4.61%;
+  height: 1.02%;
+}
+.breadcrumbs {
+  position: absolute;
+  inset: 0;
+}
+.base2 {
+  opacity: 0.5;
+  width: 100.03%;
+  height: 1.92%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 91.03%;
+  top: 7.04%;
+  overflow: visible;
+}
+.items2 {
+  width: 335.69px;
+  height: 22px;
+  position: static;
+}
+.home2 {
+  color: #33a0ff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 60.39%;
+  left: 36.41%;
+  width: 3.2%;
+  bottom: 91.58%;
+  top: 7.59%;
+  height: 0.83%;
+}
+.div {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 59.52%;
+  left: 40.14%;
+  width: 0.33%;
+  bottom: 91.58%;
+  top: 7.78%;
+  height: 0.64%;
+}
+.div2 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 53.75%;
+  left: 45.91%;
+  width: 0.33%;
+  bottom: 91.58%;
+  top: 7.78%;
+  height: 0.64%;
+}
+.hot-deal {
+  color: #33a0ff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 54.26%;
+  left: 41.08%;
+  width: 4.67%;
+  bottom: 91.58%;
+  top: 7.59%;
+  height: 0.83%;
+}
+.nike-airmax-270-react {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 41.21%;
+  left: 46.67%;
+  width: 12.12%;
+  bottom: 91.58%;
+  top: 7.59%;
+  height: 0.83%;
+}
+.frame {
+  width: 83%;
+  height: 37.68%;
+  position: absolute;
+  right: 8.5%;
+  left: 8.5%;
+  bottom: 51.75%;
+  top: 10.56%;
+  overflow: hidden;
+}
+.product2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-6 {
+  width: 40.12%;
+  height: 0.21%;
+  position: absolute;
+  right: 25.61%;
+  left: 34.27%;
+  bottom: 91.01%;
+  top: 8.78%;
+  overflow: visible;
+}
+.rectangle-62 {
+  width: 40.12%;
+  height: 0.21%;
+  position: absolute;
+  right: 25.61%;
+  left: 34.27%;
+  bottom: 72.8%;
+  top: 26.98%;
+  overflow: visible;
+}
+.rectangle-63 {
+  width: 40.12%;
+  height: 0.21%;
+  position: absolute;
+  right: 25.61%;
+  left: 34.27%;
+  bottom: 59.5%;
+  top: 40.29%;
+  overflow: visible;
+}
+.rectangle-64 {
+  width: 40.12%;
+  height: 0.21%;
+  position: absolute;
+  right: 25.61%;
+  left: 34.27%;
+  bottom: 50.13%;
+  top: 49.65%;
+  overflow: visible;
+}
+.group-25 {
+  width: 234.56px;
+  height: 86.13px;
+  position: static;
+}
+.availability {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 59.38%;
+  left: 34.27%;
+  width: 6.34%;
+  bottom: 82.11%;
+  top: 16.08%;
+  height: 1.81%;
+}
+.category {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 60.21%;
+  left: 34.27%;
+  width: 5.52%;
+  bottom: 78.7%;
+  top: 19.49%;
+  height: 1.81%;
+}
+.free-shipping2 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 58%;
+  left: 34.27%;
+  width: 7.72%;
+  bottom: 75.3%;
+  top: 22.89%;
+  height: 1.81%;
+}
+.in-stock {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 49.37%;
+  left: 46.22%;
+  width: 4.41%;
+  bottom: 82.11%;
+  top: 16.08%;
+  height: 1.81%;
+}
+.accessories {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.89%;
+  left: 46.22%;
+  width: 6.9%;
+  bottom: 78.7%;
+  top: 19.49%;
+  height: 1.81%;
+}
+._0-reviews {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 52.17%;
+  left: 41.87%;
+  width: 5.96%;
+  bottom: 93.07%;
+  top: 5.12%;
+  height: 1.81%;
+}
+.submit-a-review {
+  color: #33a0ff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 41.14%;
+  left: 49.12%;
+  width: 9.73%;
+  bottom: 93.07%;
+  top: 5.12%;
+  height: 1.81%;
+}
+.nike-airmax-270-react2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 29.53%;
+  left: 34.27%;
+  width: 36.19%;
+  bottom: 97.13%;
+  top: -0.21%;
+  height: 3.09%;
+}
+.images {
+  width: 31.58%;
+  height: 49.49%;
+  position: absolute;
+  right: 68.42%;
+  left: 0%;
+  bottom: 50.51%;
+  top: 0%;
+  overflow: visible;
+}
+.rate12 {
+  width: 6.18%;
+  height: 1.06%;
+  position: absolute;
+  right: 59.55%;
+  left: 34.27%;
+  bottom: 93.37%;
+  top: 5.56%;
+  overflow: visible;
+}
+.color {
+  width: 296.7px;
+  height: 27.65px;
+  position: static;
+}
+.select-color {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 55.83%;
+  left: 34.27%;
+  width: 9.9%;
+  bottom: 68.55%;
+  top: 29.64%;
+  height: 1.81%;
+}
+.colors {
+  width: 150.29px;
+  height: 27.65px;
+  position: absolute;
+  left: 573.11px;
+  top: 291.88px;
+  overflow: visible;
+}
+.qty {
+  width: 123.28px;
+  height: 48.91px;
+  position: static;
+}
+.rectangle-39 {
+  width: 9.9%;
+  height: 4.9%;
+  position: absolute;
+  right: 55.83%;
+  left: 34.27%;
+  bottom: 52.58%;
+  top: 42.52%;
+  overflow: visible;
+}
+._22 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 60.32%;
+  left: 38.82%;
+  width: 0.85%;
+  bottom: 54.18%;
+  top: 43.8%;
+  height: 2.02%;
+}
+.group-27 {
+  width: 0.68%;
+  height: 0.85%;
+  position: absolute;
+  right: 57.28%;
+  left: 42.04%;
+  bottom: 54.6%;
+  top: 44.54%;
+  overflow: visible;
+}
+.rectangle-11-copy-3 {
+  width: 0.68%;
+  height: 0.21%;
+  position: absolute;
+  right: 63.59%;
+  left: 35.72%;
+  bottom: 54.92%;
+  top: 44.86%;
+  overflow: visible;
+}
+.size {
+  width: 259.31px;
+  height: 40.41px;
+  position: static;
+}
+.size2 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 62.7%;
+  left: 34.27%;
+  width: 3.03%;
+  bottom: 63.01%;
+  top: 35.18%;
+  height: 1.81%;
+}
+.input {
+  width: 123.28px;
+  height: 40.41px;
+  position: static;
+}
+.rectangle-40 {
+  width: 9.9%;
+  height: 4.04%;
+  position: absolute;
+  right: 44.9%;
+  left: 45.2%;
+  bottom: 61.84%;
+  top: 34.11%;
+  overflow: visible;
+}
+.xs {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 51.97%;
+  left: 46.49%;
+  width: 1.54%;
+  bottom: 63.01%;
+  top: 35.18%;
+  height: 1.81%;
+}
+.arrow-down3 {
+  width: 0.57%;
+  height: 0.43%;
+  position: absolute;
+  right: 46.21%;
+  left: 53.22%;
+  bottom: 63.65%;
+  top: 35.92%;
+  overflow: visible;
+}
+.btn {
+  width: 159.41px;
+  height: 48.91px;
+  position: static;
+}
+.rectangle-37 {
+  opacity: 0.10000000149011612;
+  width: 12.8%;
+  height: 4.9%;
+  position: absolute;
+  right: 30.9%;
+  left: 56.3%;
+  bottom: 52.58%;
+  top: 42.52%;
+  overflow: visible;
+}
+.cart-2 {
+  width: 1.36%;
+  height: 1.7%;
+  position: absolute;
+  right: 40.64%;
+  left: 58%;
+  bottom: 54.18%;
+  top: 44.12%;
+  overflow: visible;
+}
+.add-to-cart {
+  color: #33a0ff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 32.16%;
+  left: 60.61%;
+  width: 7.23%;
+  bottom: 54.23%;
+  top: 43.96%;
+  height: 1.81%;
+}
+.group-5 {
+  width: 3.93%;
+  height: 4.9%;
+  position: absolute;
+  right: 25.61%;
+  left: 70.47%;
+  bottom: 52.58%;
+  top: 42.52%;
+  overflow: visible;
+}
+.share {
+  width: 499.49px;
+  height: 48.91px;
+  position: static;
+}
+.share-btn {
+  width: 244.43px;
+  height: 48.91px;
+  position: static;
+}
+.rectangle-41 {
+  width: 19.63%;
+  height: 4.9%;
+  position: absolute;
+  right: 46.09%;
+  left: 34.27%;
+  bottom: 43.21%;
+  top: 51.89%;
+  overflow: visible;
+}
+.inner {
+  width: 180.06px;
+  height: 18.08px;
+  position: static;
+}
+.facebook3 {
+  width: 0.65%;
+  height: 1.61%;
+  position: absolute;
+  right: 62.31%;
+  left: 37.03%;
+  bottom: 44.9%;
+  top: 53.49%;
+  overflow: visible;
+}
+.share-on-facebook {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 48.5%;
+  left: 38.68%;
+  width: 12.82%;
+  bottom: 44.9%;
+  top: 53.29%;
+  height: 1.81%;
+}
+.rectangle-412 {
+  width: 19.63%;
+  height: 4.9%;
+  position: absolute;
+  right: 25.61%;
+  left: 54.76%;
+  bottom: 43.21%;
+  top: 51.89%;
+  overflow: visible;
+}
+.inner2 {
+  width: 171.17px;
+  height: 18.36px;
+  position: static;
+}
+.share-on-twitter {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 27.93%;
+  left: 60.85%;
+  width: 11.22%;
+  bottom: 45%;
+  top: 53.19%;
+  height: 1.81%;
+}
+.twitter3 {
+  width: 1.39%;
+  height: 1.27%;
+  position: absolute;
+  right: 40.29%;
+  left: 58.32%;
+  bottom: 44.98%;
+  top: 53.76%;
+  overflow: visible;
+}
+.tabs2 {
+  width: 924.58px;
+  height: 382.8px;
+  position: static;
+}
+.rectangle-8 {
+  width: 74.26%;
+  height: 38.32%;
+  position: absolute;
+  right: 25.61%;
+  left: 0.13%;
+  bottom: 0%;
+  top: 61.68%;
+  overflow: visible;
+}
+.air-max-are-always-very-comfortable-fit-clean-and-just-perfect-in-every-way-just-the-box-was-too-small-and-scrunched-the-sneakers-up-a-little-bit-not-sure-if-the-box-was-always-this-small-but-the-90-s-are-and-will-always-be-one-of-my-favorites {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: var(
+    --body-text-normalregular-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--body-text-normalregular-font-size, 12px);
+  line-height: var(--body-text-normalregular-line-height, 180%);
+  font-weight: var(--body-text-normalregular-font-weight, 400);
+  position: absolute;
+  right: 36.33%;
+  left: 2.61%;
+  width: 61.06%;
+  bottom: 20.66%;
+  top: 72.73%;
+  height: 6.61%;
+}
+.air-max-are-always-very-comfortable-fit-clean-and-just-perfect-in-every-way-just-the-box-was-too-small-and-scrunched-the-sneakers-up-a-little-bit-not-sure-if-the-box-was-always-this-small-but-the-90-s-are-and-will-always-be-one-of-my-favorites2 {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: var(
+    --body-text-normalregular-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--body-text-normalregular-font-size, 12px);
+  line-height: var(--body-text-normalregular-line-height, 180%);
+  font-weight: var(--body-text-normalregular-font-weight, 400);
+  position: absolute;
+  right: 36.45%;
+  left: 2.49%;
+  width: 61.06%;
+  bottom: 12.55%;
+  top: 80.84%;
+  height: 6.61%;
+}
+.air-max-are-always-very-comfortable-fit-clean-and-just-perfect-in-every-way-just-the-box-was-too-small-and-scrunched-the-sneakers-up-a-little-bit-not-sure-if-the-box-was-always-this-small-but-the-90-s-are-and-will-always-be-one-of-my-favorites3 {
+  color: var(--neutral-grey, #9098b1);
+  text-align: left;
+  font-family: var(
+    --body-text-normalregular-font-family,
+    "Poppins-Regular",
+    sans-serif
+  );
+  font-size: var(--body-text-normalregular-font-size, 12px);
+  line-height: var(--body-text-normalregular-line-height, 180%);
+  font-weight: var(--body-text-normalregular-font-weight, 400);
+  position: absolute;
+  right: 36.57%;
+  left: 2.37%;
+  width: 61.06%;
+  bottom: 4.44%;
+  top: 88.95%;
+  height: 6.61%;
+}
+.rectangle-8-copy-2 {
+  opacity: 0.5;
+  width: 74.26%;
+  height: 0.43%;
+  position: absolute;
+  right: 25.61%;
+  left: 0.13%;
+  bottom: 29.38%;
+  top: 70.2%;
+  overflow: visible;
+}
+.tab {
+  width: 87.44px;
+  height: 26.2px;
+  position: static;
+}
+.reviews {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 70.76%;
+  left: 23.07%;
+  width: 6.17%;
+  bottom: 33.16%;
+  top: 64.81%;
+  height: 2.02%;
+}
+._0 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.25;
+  position: absolute;
+  right: 69.91%;
+  left: 29.24%;
+  width: 0.85%;
+  bottom: 32.56%;
+  top: 65.41%;
+  height: 2.02%;
+}
+.tab2 {
+  width: 109.92px;
+  height: 20.2px;
+  position: static;
+}
+.another-tab {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 54.74%;
+  left: 36.43%;
+  width: 8.83%;
+  bottom: 32.86%;
+  top: 65.11%;
+  height: 2.02%;
+}
+.tab3 {
+  width: 174.82px;
+  height: 55.03px;
+  position: static;
+}
+.product-infomation {
+  color: #2e90e5;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 83.27%;
+  left: 2.69%;
+  width: 14.04%;
+  bottom: 32.86%;
+  top: 65.11%;
+  height: 2.02%;
+}
+.rectangle-8-copy-22 {
+  width: 12.12%;
+  height: 0.43%;
+  position: absolute;
+  right: 85.1%;
+  left: 2.77%;
+  bottom: 29.38%;
+  top: 70.2%;
+  overflow: visible;
+}
+.best-seller2 {
+  position: absolute;
+  inset: 0;
+}
+.best-seller3 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 13.83%;
+  left: 76.95%;
+  width: 9.22%;
+  bottom: 97.39%;
+  top: 0.27%;
+  height: 2.34%;
+}
+.group-28 {
+  width: 11.52%;
+  height: 0.32%;
+  position: absolute;
+  right: 5.72%;
+  left: 82.76%;
+  bottom: 54.5%;
+  top: 45.18%;
+  overflow: visible;
+}
+.item9 {
+  width: 286.94px;
+  height: 371.1px;
+  position: static;
+}
+.rectangle-1-copy-53 {
+  width: 23.05%;
+  height: 37.15%;
+  position: absolute;
+  right: 0%;
+  left: 76.95%;
+  bottom: 56.95%;
+  top: 5.91%;
+  overflow: visible;
+}
+.rectangle-1-copy-183 {
+  width: 19.63%;
+  height: 0.11%;
+  position: absolute;
+  right: 1.71%;
+  left: 78.66%;
+  bottom: 71.31%;
+  top: 28.58%;
+  overflow: visible;
+}
+.group-7 {
+  width: 93.27px;
+  height: 20.2px;
+  position: static;
+}
+._4994 {
+  color: #ff4858;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 12.06%;
+  left: 84.7%;
+  width: 3.24%;
+  bottom: 60.35%;
+  top: 37.63%;
+  height: 2.02%;
+}
+._5994 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 7.9%;
+  left: 88.86%;
+  width: 3.24%;
+  bottom: 60.35%;
+  top: 37.63%;
+  height: 2.02%;
+}
+.line-14 {
+  width: 3.33%;
+  height: 0%;
+  position: absolute;
+  right: 7.81%;
+  left: 88.86%;
+  bottom: 61.15%;
+  top: 38.85%;
+  overflow: visible;
+}
+.rate13 {
+  width: 6.18%;
+  height: 1.06%;
+  position: absolute;
+  right: 8.42%;
+  left: 85.4%;
+  bottom: 63.57%;
+  top: 35.36%;
+  overflow: visible;
+}
+._50061505-5752463 {
+  width: 20.15%;
+  height: 16.29%;
+  position: absolute;
+  right: 1.45%;
+  left: 78.4%;
+  bottom: 74.61%;
+  top: 9.1%;
+  overflow: visible;
+}
+.image-product9 {
+  background: var(--image-product-shoes-3, undefined);
+  border-radius: 5px;
+  width: 22.79%;
+  height: 23.99%;
+  position: absolute;
+  right: 0.02%;
+  left: 77.19%;
+  bottom: 69.9%;
+  top: 6.11%;
+  object-fit: cover;
+}
+.product-image {
+  background: var(--image-product-shoes-4, undefined);
+  width: 30.12%;
+  height: 27.2%;
+  position: absolute;
+  right: 70.04%;
+  left: -0.16%;
+  bottom: 72.8%;
+  top: 0%;
+  object-fit: cover;
+}
+.product-image2 {
+  background: var(--image-product-shoes-4, undefined);
+  width: 6.87%;
+  height: 8.52%;
+  position: absolute;
+  right: 76.74%;
+  left: 16.39%;
+  bottom: 50.78%;
+  top: 40.69%;
+  object-fit: cover;
+}
+.frame-25 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 6.75%;
+  height: 3.6%;
+  position: absolute;
+  right: 58.98%;
+  left: 34.27%;
+  bottom: 85.7%;
+  top: 10.69%;
+  overflow: hidden;
+}
+._299-435 {
+  color: var(--primary-blue, #40bfff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 180%;
+  font-weight: 700;
+  position: relative;
+}
+.frame-26 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 9.8%;
+  height: 1.5%;
+  position: absolute;
+  right: 48.45%;
+  left: 41.75%;
+  bottom: 86.75%;
+  top: 11.75%;
+  overflow: hidden;
+}
+.product-picture-012 {
+  background: var(--product-detail-image-3, undefined);
+  border-radius: 5px;
+  width: 6.88%;
+  height: 8.52%;
+  position: absolute;
+  right: 68.59%;
+  left: 24.54%;
+  bottom: 50.78%;
+  top: 40.69%;
+  object-fit: cover;
+}
+.product-picture-022 {
+  background: var(--product-detail-image-1, undefined);
+  border-radius: 8px;
+  width: 6.89%;
+  height: 8.63%;
+  position: absolute;
+  right: 92.92%;
+  left: 0.19%;
+  bottom: 50.72%;
+  top: 40.64%;
+  object-fit: cover;
+}
+.product-picture-032 {
+  background: var(--product-detail-image-2, undefined);
+  border-radius: 8px;
+  width: 6.89%;
+  height: 8.57%;
+  position: absolute;
+  right: 84.83%;
+  left: 8.29%;
+  bottom: 50.78%;
+  top: 40.64%;
+  object-fit: cover;
+}
+.group-506 {
+  position: absolute;
+  inset: 0;
+}
+.header2 {
+  width: 1500.39px;
+  height: 42px;
+  position: static;
+}
+.divider2 {
+  width: 100.03%;
+  height: 0.08%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 96.75%;
+  top: 3.18%;
+  overflow: visible;
+}
+.items3 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 16.89%;
+  left: 79.57%;
+  width: 3.53%;
+  bottom: 97.43%;
+  top: 1.67%;
+  height: 0.91%;
+}
+._0-002 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: absolute;
+  right: 11.29%;
+  left: 85.24%;
+  width: 3.47%;
+  bottom: 97.39%;
+  top: 1.7%;
+  height: 0.91%;
+}
+.en2 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.33%;
+  left: 6.93%;
+  width: 1.73%;
+  bottom: 97.35%;
+  top: 1.74%;
+  height: 0.91%;
+}
+.arrow-down4 {
+  width: 0.44%;
+  height: 0.15%;
+  position: absolute;
+  right: 90.52%;
+  left: 9.04%;
+  bottom: 97.73%;
+  top: 2.12%;
+  overflow: visible;
+}
+.usd2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 86.97%;
+  left: 10.36%;
+  width: 2.67%;
+  bottom: 97.35%;
+  top: 1.74%;
+  height: 0.91%;
+}
+.arrow-down5 {
+  width: 0.44%;
+  height: 0.15%;
+  position: absolute;
+  right: 86.25%;
+  left: 13.31%;
+  bottom: 97.69%;
+  top: 2.16%;
+  overflow: visible;
+}
+.my-profile2 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 26.3%;
+  left: 67.9%;
+  width: 5.8%;
+  bottom: 97.41%;
+  top: 1.69%;
+  height: 0.91%;
+}
+.profile-close-22 {
+  width: 1.33%;
+  height: 0.75%;
+  position: absolute;
+  right: 32.54%;
+  left: 66.13%;
+  bottom: 97.48%;
+  top: 1.76%;
+  overflow: visible;
+}
+.search-icon2 {
+  width: 1.4%;
+  height: 0.79%;
+  position: absolute;
+  right: 9.33%;
+  left: 89.28%;
+  bottom: 97.47%;
+  top: 1.74%;
+  overflow: visible;
+}
+.cart3 {
+  width: 75px;
+  height: 59px;
+  position: static;
+}
+.rectangle-3942 {
+  background: var(--background-white, #ffffff);
+  width: 5%;
+  height: 2.23%;
+  position: absolute;
+  right: 21.32%;
+  left: 73.68%;
+  bottom: 96.58%;
+  top: 1.2%;
+}
+.system-icon-24-px-cart2 {
+  width: 1.6%;
+  height: 0.91%;
+  position: absolute;
+  right: 22.99%;
+  left: 75.41%;
+  bottom: 97.3%;
+  top: 1.8%;
+  overflow: hidden;
+}
+.group8 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.notification-mark2 {
+  width: 1.33%;
+  height: 0.75%;
+  position: absolute;
+  right: 22.32%;
+  left: 76.34%;
+  bottom: 97.82%;
+  top: 1.42%;
+}
+.group-499 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1-copy-54 {
+  width: 20.07%;
+  height: 14.64%;
+  position: absolute;
+  right: 72.64%;
+  left: 7.3%;
+  bottom: 28.94%;
+  top: 56.42%;
+  overflow: visible;
+}
+.rate14 {
+  width: 8.24%;
+  height: 0.57%;
+  position: absolute;
+  right: 79.13%;
+  left: 12.63%;
+  bottom: 31.05%;
+  top: 68.38%;
+  overflow: visible;
+}
+.image-product10 {
+  background: var(--image-product-shoes-3, undefined);
+  border-radius: 5px;
+  width: 19.97%;
+  height: 10.28%;
+  position: absolute;
+  right: 72.74%;
+  left: 7.3%;
+  bottom: 33.24%;
+  top: 56.48%;
+  object-fit: cover;
+}
+.nike-air-max-270-react9 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  right: 75.36%;
+  left: 10.02%;
+  width: 14.62%;
+  bottom: 31.86%;
+  top: 67.12%;
+  height: 1.02%;
+}
+.frame-142 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 5.07%;
+  height: 1.21%;
+  position: absolute;
+  right: 84.84%;
+  left: 10.09%;
+  bottom: 29.62%;
+  top: 69.17%;
+  overflow: hidden;
+}
+.frame-82 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 8.13%;
+  height: 0.57%;
+  position: absolute;
+  right: 75.83%;
+  left: 16.03%;
+  bottom: 29.94%;
+  top: 69.49%;
+  overflow: hidden;
+}
+.label2 {
+  width: 64px;
+  height: 33px;
+  position: static;
+}
+.rectangle-202 {
+  width: 4.27%;
+  height: 1.24%;
+  position: absolute;
+  right: 88.44%;
+  left: 7.3%;
+  bottom: 42.28%;
+  top: 56.48%;
+  overflow: visible;
+}
+.hot2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 89.38%;
+  left: 8.15%;
+  width: 2.47%;
+  bottom: 42.5%;
+  top: 56.67%;
+  height: 0.83%;
+}
+.group-500 {
+  position: absolute;
+  inset: 0;
+}
+.rate15 {
+  width: 8.24%;
+  height: 0.57%;
+  position: absolute;
+  right: 56.83%;
+  left: 34.93%;
+  bottom: 30.86%;
+  top: 68.57%;
+  overflow: visible;
+}
+.item10 {
+  width: 301px;
+  height: 388px;
+  position: absolute;
+  left: 443.44px;
+  top: 1495.77px;
+  overflow: visible;
+}
+.nike-air-max-270-react10 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  right: 53.06%;
+  left: 32.32%;
+  width: 14.62%;
+  bottom: 31.67%;
+  top: 67.32%;
+  height: 1.02%;
+}
+.frame-152 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 5.07%;
+  height: 1.21%;
+  position: absolute;
+  right: 62.54%;
+  left: 32.39%;
+  bottom: 29.42%;
+  top: 69.37%;
+  overflow: hidden;
+}
+.frame-162 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 8.13%;
+  height: 0.57%;
+  position: absolute;
+  right: 53.53%;
+  left: 38.33%;
+  bottom: 29.74%;
+  top: 69.69%;
+  overflow: hidden;
+}
+.image-product11 {
+  background: var(--image-product-woman-bag-1, undefined);
+  border-radius: 5px;
+  width: 20.07%;
+  height: 10.43%;
+  position: absolute;
+  right: 50.37%;
+  left: 29.56%;
+  bottom: 33.24%;
+  top: 56.33%;
+  object-fit: cover;
+}
+.group-501 {
+  position: absolute;
+  inset: 0;
+}
+.rate16 {
+  width: 8.24%;
+  height: 0.57%;
+  position: absolute;
+  right: 12.38%;
+  left: 79.38%;
+  bottom: 30.86%;
+  top: 68.57%;
+  overflow: visible;
+}
+.item11 {
+  width: 301px;
+  height: 388px;
+  position: absolute;
+  left: 1112.44px;
+  top: 1495.77px;
+  overflow: visible;
+}
+.nike-air-max-270-react11 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  right: 8.61%;
+  left: 76.77%;
+  width: 14.62%;
+  bottom: 31.67%;
+  top: 67.32%;
+  height: 1.02%;
+}
+.frame-192 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 5.07%;
+  height: 1.21%;
+  position: absolute;
+  right: 18.09%;
+  left: 76.84%;
+  bottom: 29.42%;
+  top: 69.37%;
+  overflow: hidden;
+}
+.frame-202 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 8.13%;
+  height: 0.57%;
+  position: absolute;
+  right: 9.08%;
+  left: 82.78%;
+  bottom: 29.74%;
+  top: 69.69%;
+  overflow: hidden;
+}
+.image-product12 {
+  background: var(--image-product-shoes-2, undefined);
+  border-radius: 5px;
+  width: 19.63%;
+  height: 10.28%;
+  position: absolute;
+  right: 6.1%;
+  left: 74.26%;
+  bottom: 33.24%;
+  top: 56.48%;
+  object-fit: cover;
+}
+.group-502 {
+  position: absolute;
+  inset: 0;
+}
+.vector {
+  width: 19.87%;
+  height: 14.52%;
+  position: absolute;
+  right: 28.14%;
+  left: 52%;
+  bottom: 29%;
+  top: 56.48%;
+  overflow: visible;
+}
+.group-4762 {
+  width: 219.33px;
+  height: 86.45px;
+  position: static;
+}
+.rate17 {
+  width: 8.24%;
+  height: 0.57%;
+  position: absolute;
+  right: 34.33%;
+  left: 57.43%;
+  bottom: 30.86%;
+  top: 68.57%;
+  overflow: visible;
+}
+.nike-air-max-270-react12 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  right: 30.56%;
+  left: 54.82%;
+  width: 14.62%;
+  bottom: 31.67%;
+  top: 67.32%;
+  height: 1.02%;
+}
+.frame-176 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 5.07%;
+  height: 1.21%;
+  position: absolute;
+  right: 40.04%;
+  left: 54.89%;
+  bottom: 29.42%;
+  top: 69.37%;
+  overflow: hidden;
+}
+.frame-186 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 8.13%;
+  height: 0.57%;
+  position: absolute;
+  right: 31.03%;
+  left: 60.83%;
+  bottom: 29.74%;
+  top: 69.69%;
+  overflow: hidden;
+}
+.image-product13 {
+  background: var(--image-product-woman-bag-2, undefined);
+  border-radius: 5px;
+  width: 19.97%;
+  height: 10.43%;
+  position: absolute;
+  right: 28.14%;
+  left: 51.9%;
+  bottom: 33.24%;
+  top: 56.33%;
+  object-fit: cover;
+}
+.related-products {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  right: 37.44%;
+  left: 39.63%;
+  width: 22.93%;
+  bottom: 46.83%;
+  top: 51.17%;
+  height: 2%;
+}
+.group-519 {
+  position: absolute;
+  inset: 0;
+}
+.home3 {
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 59.03%;
+  left: 36.31%;
+  width: 4.67%;
+  bottom: 94.25%;
+  top: 4.39%;
+  height: 1.36%;
+}
+.home-3-span {
+  color: #40bfff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.home-3-span2 {
+  color: #22262a;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.bags2 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 48.17%;
+  left: 47.5%;
+  width: 4.33%;
+  bottom: 94.25%;
+  top: 4.39%;
+  height: 1.36%;
+}
+.sneakers2 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 33.71%;
+  left: 58.36%;
+  width: 7.93%;
+  bottom: 94.25%;
+  top: 4.39%;
+  height: 1.36%;
+}
+.belt2 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 23.72%;
+  left: 72.82%;
+  width: 3.47%;
+  bottom: 94.25%;
+  top: 4.39%;
+  height: 1.36%;
+}
+.contact2 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 9.33%;
+  left: 82.81%;
+  width: 7.87%;
+  bottom: 94.25%;
+  top: 4.39%;
+  height: 1.36%;
+}
+.cart4 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1500px;
+  height: 2006px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-4373 {
+  background: #bcddfe;
+  width: 100%;
+  height: 33.93%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 66.08%;
+}
+.rectangle-1-copy-353 {
+  width: 78.72%;
+  height: 0.06%;
+  position: absolute;
+  right: 9.89%;
+  left: 11.39%;
+  bottom: 5.47%;
+  top: 94.47%;
+  overflow: visible;
+}
+.shape-3275 {
+  width: 2.56%;
+  height: 1.25%;
+  position: absolute;
+  right: 11.59%;
+  left: 85.86%;
+  bottom: 2.7%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-3285 {
+  width: 1.75%;
+  height: 0.43%;
+  position: absolute;
+  right: 12.01%;
+  left: 86.23%;
+  bottom: 3.09%;
+  top: 96.47%;
+  overflow: visible;
+}
+.shape-3286 {
+  width: 0.34%;
+  height: 0.23%;
+  position: absolute;
+  right: 13.43%;
+  left: 86.23%;
+  bottom: 3.29%;
+  top: 96.47%;
+  overflow: visible;
+}
+.paypal3 {
+  width: 2.54%;
+  height: 1.25%;
+  position: absolute;
+  right: 15.48%;
+  left: 81.99%;
+  bottom: 2.69%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-3276 {
+  width: 2.55%;
+  height: 1.25%;
+  position: absolute;
+  right: 19.34%;
+  left: 78.11%;
+  bottom: 2.7%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-3295 {
+  width: 1.2%;
+  height: 0.9%;
+  position: absolute;
+  right: 19.58%;
+  left: 79.22%;
+  bottom: 2.88%;
+  top: 96.23%;
+  overflow: visible;
+}
+.shape-3296 {
+  width: 1.2%;
+  height: 0.9%;
+  position: absolute;
+  right: 20.5%;
+  left: 78.31%;
+  bottom: 2.88%;
+  top: 96.23%;
+  overflow: visible;
+}
+.master-card3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 6px;
+  font-weight: 400;
+  position: absolute;
+  right: 19.6%;
+  left: 78.27%;
+  width: 2.13%;
+  bottom: 3.2%;
+  top: 96.46%;
+  height: 0.35%;
+  transform-origin: 0 0;
+  transform: rotate(7.313deg) scale(1, 1);
+}
+.western-union3 {
+  width: 2.55%;
+  height: 1.25%;
+  position: absolute;
+  right: 23.2%;
+  left: 74.25%;
+  bottom: 2.69%;
+  top: 96.06%;
+  overflow: visible;
+}
+._2018-ecommerce-theme-by-www-bisenbaev-com3 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 68.93%;
+  left: 10.34%;
+  width: 20.73%;
+  bottom: 2.96%;
+  top: 96.2%;
+  height: 0.85%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 75.94%;
+  left: 9.32%;
+  width: 14.74%;
+  bottom: 19.98%;
+  top: 76.28%;
+  height: 3.74%;
+}
+.contact-us3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 22.84%;
+  left: 70.43%;
+  width: 6.73%;
+  bottom: 24.32%;
+  top: 74.33%;
+  height: 1.35%;
+}
+.e-comm-4578-marmora-road-glasgow-d-04-89-gr3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 19.69%;
+  left: 70.43%;
+  width: 9.87%;
+  bottom: 20.22%;
+  top: 76.64%;
+  height: 3.14%;
+}
+.our-offers5 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 14.78%;
+  left: 79.08%;
+  width: 6.13%;
+  bottom: 14.38%;
+  top: 84.28%;
+  height: 1.35%;
+}
+.about-us-infomation-privacy-policy-terms-conditions9 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 10.62%;
+  left: 79.24%;
+  width: 10.13%;
+  bottom: 9.25%;
+  top: 86.57%;
+  height: 4.19%;
+}
+.my-account4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 36.38%;
+  left: 56.55%;
+  width: 7.07%;
+  bottom: 14.61%;
+  top: 84.05%;
+  height: 1.35%;
+}
+.about-us-infomation-privacy-policy-terms-conditions10 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 33.35%;
+  left: 56.52%;
+  width: 10.13%;
+  bottom: 9.47%;
+  top: 86.34%;
+  height: 4.19%;
+}
+.service4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 64.25%;
+  left: 31.35%;
+  width: 4.4%;
+  bottom: 14.88%;
+  top: 83.78%;
+  height: 1.35%;
+}
+.about-us-infomation-privacy-policy-terms-conditions11 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 58.52%;
+  left: 31.35%;
+  width: 10.13%;
+  bottom: 8.96%;
+  top: 86.85%;
+  height: 4.19%;
+}
+.infomation4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 84.08%;
+  left: 9.32%;
+  width: 6.6%;
+  bottom: 14.61%;
+  top: 84.05%;
+  height: 1.35%;
+}
+.about-us-infomation-privacy-policy-terms-conditions12 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 80.55%;
+  left: 9.32%;
+  width: 10.13%;
+  bottom: 8.92%;
+  top: 86.89%;
+  height: 4.19%;
+}
+.follow-us3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 51%;
+  left: 43.4%;
+  width: 5.6%;
+  bottom: 24.49%;
+  top: 74.17%;
+  height: 1.35%;
+}
+.e-comm5 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 82.01%;
+  left: 12.39%;
+  width: 5.6%;
+  bottom: 24.87%;
+  top: 73.78%;
+  height: 1.35%;
+}
+.since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 43.4%;
+  left: 43.4%;
+  width: 13.2%;
+  bottom: 21.27%;
+  top: 76.48%;
+  height: 2.24%;
+}
+.twitter4 {
+  width: 0.98%;
+  height: 0.59%;
+  position: absolute;
+  right: 52.39%;
+  left: 46.63%;
+  bottom: 19.46%;
+  top: 79.95%;
+  overflow: visible;
+}
+.facebook4 {
+  width: 0.51%;
+  height: 0.75%;
+  position: absolute;
+  right: 55.99%;
+  left: 43.5%;
+  bottom: 19.4%;
+  top: 79.85%;
+  overflow: visible;
+}
+.icon7 {
+  width: 2.6%;
+  height: 1.94%;
+  position: absolute;
+  right: 88.08%;
+  left: 9.32%;
+  bottom: 24.52%;
+  top: 73.54%;
+}
+.group-4007 {
+  height: auto;
+  position: absolute;
+  left: 28.17px;
+  top: 10.83px;
+  transform: translate(-17.33px, 0px);
+  overflow: visible;
+}
+.cart-products {
+  position: absolute;
+  inset: 0;
+}
+.thead {
+  width: 1256.11px;
+  height: 55px;
+  position: static;
+}
+.product3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 82.9%;
+  left: 10.3%;
+  width: 6.8%;
+  bottom: 84.05%;
+  top: 14.46%;
+  height: 1.5%;
+}
+.price {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 38.53%;
+  left: 57.46%;
+  width: 4.01%;
+  bottom: 84.05%;
+  top: 14.46%;
+  height: 1.5%;
+}
+.qty2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 27.94%;
+  left: 69.2%;
+  width: 2.86%;
+  bottom: 84.05%;
+  top: 14.46%;
+  height: 1.5%;
+}
+.unit-price {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 9.97%;
+  left: 82.44%;
+  width: 7.59%;
+  bottom: 84.05%;
+  top: 14.46%;
+  height: 1.5%;
+}
+.divider3 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 82.8%;
+  top: 17.1%;
+  overflow: visible;
+}
+.cart-item {
+  width: 1256.11px;
+  height: 294.5px;
+  position: static;
+}
+.divider4 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 72.23%;
+  top: 27.67%;
+  overflow: visible;
+}
+.nike-airmax-270-react3 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 64.03%;
+  left: 22.8%;
+  width: 13.17%;
+  bottom: 76.77%;
+  top: 21.89%;
+  height: 1.35%;
+}
+.nike-airmax-270-react4 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 64.03%;
+  left: 22.8%;
+  width: 13.17%;
+  bottom: 66.13%;
+  top: 32.53%;
+  height: 1.35%;
+}
+._4995 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 14.26%;
+  left: 82.44%;
+  width: 3.29%;
+  bottom: 76.77%;
+  top: 21.89%;
+  height: 1.35%;
+}
+._998 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 39.24%;
+  left: 57.46%;
+  width: 3.29%;
+  bottom: 76.77%;
+  top: 21.89%;
+  height: 1.35%;
+}
+.qty3 {
+  width: 124.54px;
+  height: 46px;
+  position: static;
+}
+.rectangle-392 {
+  width: 8.3%;
+  height: 2.29%;
+  position: absolute;
+  right: 22.5%;
+  left: 69.2%;
+  bottom: 76.42%;
+  top: 21.29%;
+  overflow: visible;
+}
+._23 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 26.2%;
+  left: 73.02%;
+  width: 0.79%;
+  bottom: 76.97%;
+  top: 21.94%;
+  height: 1.1%;
+}
+.group-272 {
+  width: 0.57%;
+  height: 0.4%;
+  position: absolute;
+  right: 23.71%;
+  left: 75.72%;
+  bottom: 77.37%;
+  top: 22.23%;
+  overflow: visible;
+}
+.rectangle-11-copy-32 {
+  width: 0.57%;
+  height: 0.1%;
+  position: absolute;
+  right: 29.01%;
+  left: 70.42%;
+  bottom: 77.52%;
+  top: 22.38%;
+  overflow: visible;
+}
+.del {
+  width: 1.57%;
+  height: 1.1%;
+  position: absolute;
+  right: 91.49%;
+  left: 6.93%;
+  bottom: 77.02%;
+  top: 21.89%;
+  overflow: visible;
+}
+.pic3 {
+  width: 9.3%;
+  height: 6.48%;
+  position: absolute;
+  right: 80.4%;
+  left: 10.3%;
+  bottom: 74.33%;
+  top: 19.19%;
+  overflow: visible;
+}
+.cart-item2 {
+  width: 1256.11px;
+  height: 172px;
+  position: static;
+}
+.divider5 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 61.66%;
+  top: 38.24%;
+  overflow: visible;
+}
+._4996 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 14.26%;
+  left: 82.44%;
+  width: 3.29%;
+  bottom: 66.2%;
+  top: 32.45%;
+  height: 1.35%;
+}
+._9982 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 39.24%;
+  left: 57.46%;
+  width: 3.29%;
+  bottom: 66.2%;
+  top: 32.45%;
+  height: 1.35%;
+}
+.rectangle-393 {
+  width: 8.3%;
+  height: 2.29%;
+  position: absolute;
+  right: 22.5%;
+  left: 69.2%;
+  bottom: 65.85%;
+  top: 31.86%;
+  overflow: visible;
+}
+._24 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 26.2%;
+  left: 73.02%;
+  width: 0.79%;
+  bottom: 66.4%;
+  top: 32.5%;
+  height: 1.1%;
+}
+.group-273 {
+  width: 0.57%;
+  height: 0.4%;
+  position: absolute;
+  right: 23.71%;
+  left: 75.72%;
+  bottom: 66.8%;
+  top: 32.8%;
+  overflow: visible;
+}
+.rectangle-11-copy-33 {
+  width: 0.57%;
+  height: 0.1%;
+  position: absolute;
+  right: 29.01%;
+  left: 70.42%;
+  bottom: 66.95%;
+  top: 32.95%;
+  overflow: visible;
+}
+.del2 {
+  width: 1.57%;
+  height: 1.1%;
+  position: absolute;
+  right: 91.49%;
+  left: 6.93%;
+  bottom: 66.45%;
+  top: 32.45%;
+  overflow: visible;
+}
+.pic4 {
+  width: 9.3%;
+  height: 6.48%;
+  position: absolute;
+  right: 80.4%;
+  left: 10.3%;
+  bottom: 63.76%;
+  top: 29.76%;
+  overflow: visible;
+}
+.total {
+  position: absolute;
+  inset: 0;
+}
+.subtotal {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 32.63%;
+  left: 62.3%;
+  width: 5.07%;
+  bottom: 55.83%;
+  top: 42.82%;
+  height: 1.35%;
+}
+.shipping-fee {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 30.23%;
+  left: 62.3%;
+  width: 7.47%;
+  bottom: 53.34%;
+  top: 45.32%;
+  height: 1.35%;
+}
+.total2 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  right: 31.57%;
+  left: 62.3%;
+  width: 6.13%;
+  bottom: 45.91%;
+  top: 51.85%;
+  height: 2.24%;
+}
+._9983 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 12.56%;
+  left: 84.37%;
+  width: 3.07%;
+  bottom: 55.83%;
+  top: 42.82%;
+  height: 1.35%;
+}
+._20 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 12.8%;
+  left: 85%;
+  width: 2.2%;
+  bottom: 53.34%;
+  top: 45.32%;
+  height: 1.35%;
+}
+.coupon {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 32.83%;
+  left: 62.3%;
+  width: 4.87%;
+  bottom: 50.85%;
+  top: 47.81%;
+  height: 1.35%;
+}
+.no {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 12.76%;
+  left: 85.57%;
+  width: 1.67%;
+  bottom: 50.85%;
+  top: 47.81%;
+  height: 1.35%;
+}
+._118 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  right: 12.73%;
+  left: 83.27%;
+  width: 4%;
+  bottom: 45.91%;
+  top: 51.85%;
+  height: 2.24%;
+}
+.divider6 {
+  width: 24.67%;
+  height: 0.1%;
+  position: absolute;
+  right: 13.03%;
+  left: 62.3%;
+  bottom: 49.55%;
+  top: 50.35%;
+  overflow: visible;
+}
+.btn2 {
+  width: 374.12px;
+  height: 60px;
+  position: static;
+}
+.rectangle-372 {
+  width: 24.94%;
+  height: 2.99%;
+  position: absolute;
+  right: 12.76%;
+  left: 62.3%;
+  bottom: 41.72%;
+  top: 55.29%;
+  overflow: visible;
+}
+.check-out {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 22.12%;
+  left: 71.66%;
+  width: 6.22%;
+  bottom: 42.55%;
+  top: 56.11%;
+  height: 1.35%;
+}
+.form {
+  position: absolute;
+  inset: 0;
+}
+.base3 {
+  width: 24.6%;
+  height: 2.99%;
+  position: absolute;
+  right: 66.43%;
+  left: 8.97%;
+  bottom: 54.19%;
+  top: 42.82%;
+  overflow: visible;
+}
+.voucher-code {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: absolute;
+  right: 82.17%;
+  left: 10.3%;
+  width: 7.53%;
+  bottom: 55.03%;
+  top: 43.77%;
+  height: 1.2%;
+}
+.btn3 {
+  width: 118px;
+  height: 60px;
+  position: static;
+}
+.rectangle-373 {
+  width: 7.87%;
+  height: 2.99%;
+  position: absolute;
+  right: 66.43%;
+  left: 25.7%;
+  bottom: 54.19%;
+  top: 42.82%;
+  overflow: visible;
+}
+.redeem {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 67.83%;
+  left: 27.1%;
+  width: 5.07%;
+  bottom: 54.91%;
+  top: 43.75%;
+  height: 1.35%;
+}
+.group-507 {
+  position: absolute;
+  inset: 0;
+}
+.icon8 {
+  width: 2.93%;
+  height: 2.19%;
+  position: absolute;
+  right: 90.13%;
+  left: 6.93%;
+  bottom: 92.76%;
+  top: 5.04%;
+}
+.group-4008 {
+  height: auto;
+  position: absolute;
+  left: 31.78px;
+  top: 12.22px;
+  transform: translate(-19.56px, 0px);
+  overflow: visible;
+}
+.e-comm6 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 84.11%;
+  left: 10.29%;
+  width: 5.6%;
+  bottom: 93.12%;
+  top: 5.53%;
+  height: 1.35%;
+}
+.group-508 {
+  position: absolute;
+  inset: 0;
+}
+.divider7 {
+  width: 100.03%;
+  height: 0.1%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 96.27%;
+  top: 3.63%;
+  overflow: visible;
+}
+.items4 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 16.89%;
+  left: 79.57%;
+  width: 3.53%;
+  bottom: 97.16%;
+  top: 1.64%;
+  height: 1.2%;
+}
+._0-003 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: absolute;
+  right: 11.29%;
+  left: 85.24%;
+  width: 3.47%;
+  bottom: 97.11%;
+  top: 1.69%;
+  height: 1.2%;
+}
+.en3 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.33%;
+  left: 6.93%;
+  width: 1.73%;
+  bottom: 97.06%;
+  top: 1.74%;
+  height: 1.2%;
+}
+.arrow-down6 {
+  width: 0.44%;
+  height: 0.2%;
+  position: absolute;
+  right: 90.52%;
+  left: 9.04%;
+  bottom: 97.56%;
+  top: 2.24%;
+  overflow: visible;
+}
+.usd3 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 86.97%;
+  left: 10.36%;
+  width: 2.67%;
+  bottom: 97.06%;
+  top: 1.74%;
+  height: 1.2%;
+}
+.arrow-down7 {
+  width: 0.44%;
+  height: 0.2%;
+  position: absolute;
+  right: 86.25%;
+  left: 13.31%;
+  bottom: 97.51%;
+  top: 2.29%;
+  overflow: visible;
+}
+.my-profile3 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 26.3%;
+  left: 67.9%;
+  width: 5.8%;
+  bottom: 97.14%;
+  top: 1.66%;
+  height: 1.2%;
+}
+.profile-close-23 {
+  width: 1.33%;
+  height: 1%;
+  position: absolute;
+  right: 32.54%;
+  left: 66.13%;
+  bottom: 97.24%;
+  top: 1.76%;
+  overflow: visible;
+}
+.search-icon3 {
+  width: 1.4%;
+  height: 1.04%;
+  position: absolute;
+  right: 9.33%;
+  left: 89.28%;
+  bottom: 97.22%;
+  top: 1.74%;
+  overflow: visible;
+}
+.rectangle-3943 {
+  background: var(--background-white, #ffffff);
+  width: 5%;
+  height: 2.94%;
+  position: absolute;
+  right: 21.32%;
+  left: 73.68%;
+  bottom: 96.04%;
+  top: 1.02%;
+}
+.system-icon-24-px-cart3 {
+  width: 1.6%;
+  height: 1.2%;
+  position: absolute;
+  right: 22.99%;
+  left: 75.41%;
+  bottom: 96.99%;
+  top: 1.81%;
+  overflow: hidden;
+}
+.group9 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.base4 {
+  opacity: 0.5;
+  width: 100.03%;
+  height: 2.54%;
+  position: absolute;
+  right: 0%;
+  left: -0.03%;
+  bottom: 87.88%;
+  top: 9.58%;
+  overflow: visible;
+}
+.home4 {
+  color: #33a0ff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 60.42%;
+  left: 36.38%;
+  width: 3.2%;
+  bottom: 88.6%;
+  top: 10.3%;
+  height: 1.1%;
+}
+.div3 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 59.55%;
+  left: 40.12%;
+  width: 0.33%;
+  bottom: 88.6%;
+  top: 10.55%;
+  height: 0.85%;
+}
+.div4 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 53.78%;
+  left: 45.89%;
+  width: 0.33%;
+  bottom: 88.6%;
+  top: 10.55%;
+  height: 0.85%;
+}
+.hot-deal2 {
+  color: #33a0ff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 54.28%;
+  left: 41.05%;
+  width: 4.67%;
+  bottom: 88.6%;
+  top: 10.3%;
+  height: 1.1%;
+}
+.nike-airmax-270-react5 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 41.24%;
+  left: 46.64%;
+  width: 12.12%;
+  bottom: 88.6%;
+  top: 10.3%;
+  height: 1.1%;
+}
+.product-image3 {
+  background: var(--image-product-shoes-4, undefined);
+  border-radius: 7px;
+  width: 9.19%;
+  height: 4.69%;
+  position: absolute;
+  right: 79.12%;
+  left: 11.69%;
+  bottom: 74.99%;
+  top: 20.32%;
+  object-fit: cover;
+}
+.image-product14 {
+  background: var(--image-product-shoes-3, undefined);
+  border-radius: 7px;
+  width: 8.79%;
+  height: 4.69%;
+  position: absolute;
+  right: 79.32%;
+  left: 11.9%;
+  bottom: 64.76%;
+  top: 30.56%;
+  object-fit: cover;
+}
+.group-520 {
+  position: absolute;
+  inset: 0;
+}
+.home5 {
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 59.03%;
+  left: 36.31%;
+  width: 4.67%;
+  bottom: 92.96%;
+  top: 5.24%;
+  height: 1.79%;
+}
+.home-5-span {
+  color: #40bfff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.home-5-span2 {
+  color: #22262a;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.bags3 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 48.17%;
+  left: 47.5%;
+  width: 4.33%;
+  bottom: 92.96%;
+  top: 5.24%;
+  height: 1.79%;
+}
+.sneakers3 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 33.71%;
+  left: 58.36%;
+  width: 7.93%;
+  bottom: 92.96%;
+  top: 5.24%;
+  height: 1.79%;
+}
+.belt3 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 23.72%;
+  left: 72.82%;
+  width: 3.47%;
+  bottom: 92.96%;
+  top: 5.24%;
+  height: 1.79%;
+}
+.contact3 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 9.33%;
+  left: 82.81%;
+  width: 7.87%;
+  bottom: 92.96%;
+  top: 5.24%;
+  height: 1.79%;
+}
+.payment-1 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1500px;
+  height: 2006px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1-copy-354 {
+  width: 78.72%;
+  height: 0.06%;
+  position: absolute;
+  right: 9.89%;
+  left: 11.39%;
+  bottom: 5.47%;
+  top: 94.47%;
+  overflow: visible;
+}
+.shape-3277 {
+  width: 2.56%;
+  height: 1.25%;
+  position: absolute;
+  right: 11.59%;
+  left: 85.86%;
+  bottom: 2.7%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-3287 {
+  width: 1.75%;
+  height: 0.43%;
+  position: absolute;
+  right: 12.01%;
+  left: 86.23%;
+  bottom: 3.09%;
+  top: 96.47%;
+  overflow: visible;
+}
+.shape-3288 {
+  width: 0.34%;
+  height: 0.23%;
+  position: absolute;
+  right: 13.43%;
+  left: 86.23%;
+  bottom: 3.29%;
+  top: 96.47%;
+  overflow: visible;
+}
+.paypal4 {
+  width: 2.54%;
+  height: 1.25%;
+  position: absolute;
+  right: 15.48%;
+  left: 81.99%;
+  bottom: 2.69%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-3278 {
+  width: 2.55%;
+  height: 1.25%;
+  position: absolute;
+  right: 19.34%;
+  left: 78.11%;
+  bottom: 2.7%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-3297 {
+  width: 1.2%;
+  height: 0.9%;
+  position: absolute;
+  right: 19.58%;
+  left: 79.22%;
+  bottom: 2.88%;
+  top: 96.23%;
+  overflow: visible;
+}
+.shape-3298 {
+  width: 1.2%;
+  height: 0.9%;
+  position: absolute;
+  right: 20.5%;
+  left: 78.31%;
+  bottom: 2.88%;
+  top: 96.23%;
+  overflow: visible;
+}
+.western-union4 {
+  width: 2.55%;
+  height: 1.25%;
+  position: absolute;
+  right: 23.2%;
+  left: 74.25%;
+  bottom: 2.69%;
+  top: 96.06%;
+  overflow: visible;
+}
+.twitter5 {
+  width: 0.98%;
+  height: 0.59%;
+  position: absolute;
+  right: 52.39%;
+  left: 46.63%;
+  bottom: 19.46%;
+  top: 79.95%;
+  overflow: visible;
+}
+.facebook5 {
+  width: 0.51%;
+  height: 0.75%;
+  position: absolute;
+  right: 55.99%;
+  left: 43.5%;
+  bottom: 19.4%;
+  top: 79.85%;
+  overflow: visible;
+}
+.group-4009 {
+  height: auto;
+  position: absolute;
+  left: 28.17px;
+  top: 10.83px;
+  transform: translate(-17.33px, 0px);
+  overflow: visible;
+}
+.divider8 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 82.8%;
+  top: 17.1%;
+  overflow: visible;
+}
+.divider9 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 72.23%;
+  top: 27.67%;
+  overflow: visible;
+}
+.rectangle-395 {
+  width: 8.3%;
+  height: 2.29%;
+  position: absolute;
+  right: 22.5%;
+  left: 69.2%;
+  bottom: 76.42%;
+  top: 21.29%;
+  overflow: visible;
+}
+.group-274 {
+  width: 0.57%;
+  height: 0.4%;
+  position: absolute;
+  right: 23.71%;
+  left: 75.72%;
+  bottom: 77.37%;
+  top: 22.23%;
+  overflow: visible;
+}
+.rectangle-11-copy-34 {
+  width: 0.57%;
+  height: 0.1%;
+  position: absolute;
+  right: 29.01%;
+  left: 70.42%;
+  bottom: 77.52%;
+  top: 22.38%;
+  overflow: visible;
+}
+.del3 {
+  width: 1.57%;
+  height: 1.1%;
+  position: absolute;
+  right: 91.49%;
+  left: 6.93%;
+  bottom: 77.02%;
+  top: 21.89%;
+  overflow: visible;
+}
+.pic5 {
+  width: 9.3%;
+  height: 6.48%;
+  position: absolute;
+  right: 80.4%;
+  left: 10.3%;
+  bottom: 74.33%;
+  top: 19.19%;
+  overflow: visible;
+}
+.divider10 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 61.66%;
+  top: 38.24%;
+  overflow: visible;
+}
+.rectangle-396 {
+  width: 8.3%;
+  height: 2.29%;
+  position: absolute;
+  right: 22.5%;
+  left: 69.2%;
+  bottom: 65.85%;
+  top: 31.86%;
+  overflow: visible;
+}
+.group-275 {
+  width: 0.57%;
+  height: 0.4%;
+  position: absolute;
+  right: 23.71%;
+  left: 75.72%;
+  bottom: 66.8%;
+  top: 32.8%;
+  overflow: visible;
+}
+.rectangle-11-copy-35 {
+  width: 0.57%;
+  height: 0.1%;
+  position: absolute;
+  right: 29.01%;
+  left: 70.42%;
+  bottom: 66.95%;
+  top: 32.95%;
+  overflow: visible;
+}
+.del4 {
+  width: 1.57%;
+  height: 1.1%;
+  position: absolute;
+  right: 91.49%;
+  left: 6.93%;
+  bottom: 66.45%;
+  top: 32.45%;
+  overflow: visible;
+}
+.pic6 {
+  width: 9.3%;
+  height: 6.48%;
+  position: absolute;
+  right: 80.4%;
+  left: 10.3%;
+  bottom: 63.76%;
+  top: 29.76%;
+  overflow: visible;
+}
+.divider11 {
+  width: 24.67%;
+  height: 0.1%;
+  position: absolute;
+  right: 13.03%;
+  left: 62.3%;
+  bottom: 49.55%;
+  top: 50.35%;
+  overflow: visible;
+}
+.rectangle-374 {
+  width: 24.94%;
+  height: 2.99%;
+  position: absolute;
+  right: 12.76%;
+  left: 62.3%;
+  bottom: 41.72%;
+  top: 55.29%;
+  overflow: visible;
+}
+.base5 {
+  width: 24.6%;
+  height: 2.99%;
+  position: absolute;
+  right: 66.43%;
+  left: 8.97%;
+  bottom: 54.19%;
+  top: 42.82%;
+  overflow: visible;
+}
+.rectangle-375 {
+  width: 7.87%;
+  height: 2.99%;
+  position: absolute;
+  right: 66.43%;
+  left: 25.7%;
+  bottom: 54.19%;
+  top: 42.82%;
+  overflow: visible;
+}
+.nav3 {
+  position: absolute;
+  inset: 0;
+}
+.home-bag-sneakers-belt-contact {
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 9.99%;
+  left: 36.61%;
+  width: 53.4%;
+  bottom: 92.96%;
+  top: 5.24%;
+  height: 1.79%;
+}
+.home-bag-sneakers-belt-contact-span {
+  color: #40bfff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.home-bag-sneakers-belt-contact-span2 {
+  color: #22262a;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.group-40010 {
+  height: auto;
+  position: absolute;
+  left: 31.78px;
+  top: 12.22px;
+  transform: translate(-19.56px, 0px);
+  overflow: visible;
+}
+.divider12 {
+  width: 100.03%;
+  height: 0.1%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 96.27%;
+  top: 3.63%;
+  overflow: visible;
+}
+.arrow-down8 {
+  width: 0.44%;
+  height: 0.2%;
+  position: absolute;
+  right: 90.52%;
+  left: 9.04%;
+  bottom: 97.56%;
+  top: 2.24%;
+  overflow: visible;
+}
+.arrow-down9 {
+  width: 0.44%;
+  height: 0.2%;
+  position: absolute;
+  right: 86.25%;
+  left: 13.31%;
+  bottom: 97.51%;
+  top: 2.29%;
+  overflow: visible;
+}
+.profile-close-24 {
+  width: 1.33%;
+  height: 1%;
+  position: absolute;
+  right: 32.54%;
+  left: 66.13%;
+  bottom: 97.24%;
+  top: 1.76%;
+  overflow: visible;
+}
+.search-icon4 {
+  width: 1.4%;
+  height: 1.04%;
+  position: absolute;
+  right: 9.33%;
+  left: 89.28%;
+  bottom: 97.22%;
+  top: 1.74%;
+  overflow: visible;
+}
+.group10 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.base6 {
+  opacity: 0.5;
+  width: 100.03%;
+  height: 2.54%;
+  position: absolute;
+  right: 0%;
+  left: -0.03%;
+  bottom: 87.88%;
+  top: 9.58%;
+  overflow: visible;
+}
+.rectangle-438 {
+  background: rgba(34, 34, 34, 0.3);
+  width: 100.03%;
+  height: 100%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.input-on-light-text {
+  width: 22.4%;
+  height: 2.49%;
+  position: absolute;
+  right: 26.25%;
+  left: 51.35%;
+  bottom: 56.76%;
+  top: 40.75%;
+}
+.group-522 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-2 {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 68.1%;
+  height: 39.52%;
+  position: absolute;
+  right: 16.62%;
+  left: 15.28%;
+  bottom: 36.9%;
+  top: 23.58%;
+}
+.group-3-1 {
+  width: 40px;
+  height: 40px;
+  position: static;
+}
+.rectangle {
+  background: rgba(196, 196, 196, 0);
+  width: 2.67%;
+  height: 1.99%;
+  position: absolute;
+  right: 77.51%;
+  left: 19.82%;
+  bottom: 72.37%;
+  top: 25.63%;
+}
+.status-bar {
+  width: 1.48%;
+  height: 1.11%;
+  position: absolute;
+  right: 78.1%;
+  left: 20.42%;
+  bottom: 72.81%;
+  top: 26.08%;
+  overflow: visible;
+}
+.times {
+  opacity: 0.5;
+  width: 1.67%;
+  height: 1.25%;
+  position: absolute;
+  right: 24.07%;
+  left: 74.26%;
+  bottom: 71.75%;
+  top: 27.01%;
+  overflow: visible;
+}
+.make-payment {
+  color: #40bfff;
+  text-align: left;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  right: 43.09%;
+  left: 41.74%;
+  width: 15.17%;
+  bottom: 69.7%;
+  top: 27.73%;
+  height: 2.57%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.select-method-of-payment {
+  color: #40bfff;
+  text-align: left;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 61.35%;
+  left: 20.88%;
+  width: 17.77%;
+  bottom: 54.72%;
+  top: 44.06%;
+  height: 1.22%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.list {
+  width: 378.72px;
+  height: 168px;
+  position: static;
+}
+.credit-card-or-debit {
+  background: var(--background-white, #ffffff);
+  width: 25.25%;
+  height: 2.79%;
+  position: absolute;
+  right: 53.59%;
+  left: 21.16%;
+  bottom: 51.22%;
+  top: 45.99%;
+}
+.rectangle2 {
+  background: var(--neutral-light, #ebf0ff);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.credit-card-or-debit2 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: var(--heading-h6-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--heading-h6-font-size, 12px);
+  line-height: var(--heading-h6-line-height, 150%);
+  font-weight: var(--heading-h6-font-weight, 700);
+  position: absolute;
+  right: 49.33%;
+  left: 14.93%;
+  width: 35.73%;
+  bottom: 33.93%;
+  top: 33.93%;
+  height: 32.14%;
+}
+.system-icon-24-px-credit-card {
+  width: 6.4%;
+  height: 42.86%;
+  position: absolute;
+  right: 89.33%;
+  left: 4.27%;
+  bottom: 28.57%;
+  top: 28.57%;
+  overflow: hidden;
+}
+.group11 {
+  width: 75%;
+  height: 56.25%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 21.88%;
+  top: 21.88%;
+  overflow: visible;
+}
+.group-512 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-22 {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--gray-light, #dfdede);
+  border-width: 1px;
+  width: 6.34%;
+  height: 42.86%;
+  position: absolute;
+  right: 3.43%;
+  left: 90.24%;
+  bottom: 21.43%;
+  top: 35.71%;
+}
+.div5 {
+  color: #40bfff;
+  text-align: left;
+  font-family: "FontAwesome5Free-Solid", sans-serif;
+  font-size: 12px;
+  line-height: 126.5%;
+  font-weight: 400;
+  position: absolute;
+  right: 5.01%;
+  left: 91.82%;
+  width: 3.17%;
+  bottom: 25%;
+  top: 46.43%;
+  height: 28.57%;
+}
+.paypal5 {
+  background: var(--background-white, #ffffff);
+  width: 25.25%;
+  height: 2.79%;
+  position: absolute;
+  right: 53.59%;
+  left: 21.16%;
+  bottom: 48.43%;
+  top: 48.78%;
+}
+.rectangle3 {
+  background: var(--background-white, #ffffff);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.paypal6 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: var(--heading-h6-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--heading-h6-font-size, 12px);
+  line-height: var(--heading-h6-line-height, 150%);
+  font-weight: var(--heading-h6-font-weight, 700);
+  position: absolute;
+  right: 72.8%;
+  left: 14.93%;
+  width: 12.27%;
+  bottom: 33.93%;
+  top: 33.93%;
+  height: 32.14%;
+}
+.other-icon-paypal {
+  width: 6.4%;
+  height: 42.86%;
+  position: absolute;
+  right: 89.33%;
+  left: 4.27%;
+  bottom: 28.57%;
+  top: 28.57%;
+  overflow: visible;
+}
+.group-513 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-23 {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--gray-light, #dfdede);
+  border-width: 1px;
+  width: 6.34%;
+  height: 42.86%;
+  position: absolute;
+  right: 3.43%;
+  left: 90.24%;
+  bottom: 31.7%;
+  top: 25.45%;
+}
+.bank-transfer {
+  background: var(--background-white, #ffffff);
+  width: 25.25%;
+  height: 2.79%;
+  position: absolute;
+  right: 53.59%;
+  left: 21.16%;
+  bottom: 45.64%;
+  top: 51.57%;
+}
+.bank-transfer2 {
+  color: var(--neutral-dark, #223263);
+  text-align: left;
+  font-family: var(--heading-h6-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--heading-h6-font-size, 12px);
+  line-height: var(--heading-h6-line-height, 150%);
+  font-weight: var(--heading-h6-font-weight, 700);
+  position: absolute;
+  right: 60.27%;
+  left: 14.93%;
+  width: 24.8%;
+  bottom: 33.93%;
+  top: 33.93%;
+  height: 32.14%;
+}
+.system-icon-24-px-bank {
+  width: 6.4%;
+  height: 42.86%;
+  position: absolute;
+  right: 89.33%;
+  left: 4.27%;
+  bottom: 28.57%;
+  top: 28.57%;
+  overflow: hidden;
+}
+.group12 {
+  height: auto;
+  position: absolute;
+  left: 3.03px;
+  top: 3px;
+  overflow: visible;
+}
+.group-514 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-24 {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--gray-light, #dfdede);
+  border-width: 1px;
+  width: 6.34%;
+  height: 42.86%;
+  position: absolute;
+  right: 3.43%;
+  left: 90.24%;
+  bottom: 33.93%;
+  top: 23.21%;
+}
+.input-on-light-text2 {
+  width: 22.4%;
+  height: 2.49%;
+  position: absolute;
+  right: 56.44%;
+  left: 21.16%;
+  bottom: 61.26%;
+  top: 36.24%;
+}
+.rectangle4 {
+  background: var(--gray-light, #dfdede);
+  border-radius: 10px;
+  opacity: 0.30000001192092896;
+  width: 113.39%;
+  height: 100%;
+  position: absolute;
+  right: -13.39%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.first-name {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  left: 14px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-on-light-text3 {
+  width: 22.4%;
+  height: 2.49%;
+  position: absolute;
+  right: 26.25%;
+  left: 51.35%;
+  bottom: 61.21%;
+  top: 36.3%;
+}
+.rectangle5 {
+  background: var(--gray-light, #dfdede);
+  border-radius: 10px;
+  opacity: 0.30000001192092896;
+  width: 113.92%;
+  height: 100%;
+  position: absolute;
+  right: -13.92%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.last-name {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  left: 14px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-on-light-text4 {
+  width: 25.4%;
+  height: 2.49%;
+  position: absolute;
+  right: 53.33%;
+  left: 21.27%;
+  bottom: 57.15%;
+  top: 40.35%;
+}
+.rectangle6 {
+  background: var(--gray-light, #dfdede);
+  border-radius: 10px;
+  opacity: 0.30000001192092896;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.email-address {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  left: 14px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle7 {
+  background: var(--gray-light, #dfdede);
+  border-radius: 10px;
+  opacity: 0.30000001192092896;
+  width: 25.53%;
+  height: 6.11%;
+  position: absolute;
+  right: 23.11%;
+  left: 51.35%;
+  bottom: 53.14%;
+  top: 40.75%;
+}
+.address-for-delivery {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 409.71px;
+  left: 784.287109375px;
+  top: 843.49px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-on-light-text5 {
+  width: 22.4%;
+  height: 2.49%;
+  position: absolute;
+  right: 26.35%;
+  left: 51.25%;
+  bottom: 49.28%;
+  top: 48.23%;
+}
+.rectangle8 {
+  background: var(--gray-light, #dfdede);
+  border-radius: 10px;
+  opacity: 0.30000001192092896;
+  width: 113.51%;
+  height: 100%;
+  position: absolute;
+  right: -13.51%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.mobile-phone {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  left: 14px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stepper {
+  width: 155px;
+  height: 36px;
+  position: static;
+}
+.vector2 {
+  width: 8.13%;
+  height: 0%;
+  position: absolute;
+  right: 45.82%;
+  left: 46.05%;
+  bottom: 66.6%;
+  top: 33.4%;
+  overflow: visible;
+}
+.steps-inactive {
+  width: 2.4%;
+  height: 1.79%;
+  position: absolute;
+  right: 44.82%;
+  left: 52.78%;
+  bottom: 65.75%;
+  top: 32.45%;
+}
+.ellipse2 {
+  background: var(--gray-light, #dfdede);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+._3 {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-active {
+  width: 2.4%;
+  height: 1.79%;
+  position: absolute;
+  right: 52.75%;
+  left: 44.85%;
+  bottom: 65.75%;
+  top: 32.45%;
+}
+.ellipse3 {
+  background: #40bfff;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  box-shadow: 0px 10px 40px 0px rgba(248, 161, 112, 0.2);
+}
+._1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-inactive2 {
+  width: 2.4%;
+  height: 1.79%;
+  position: absolute;
+  right: 48.75%;
+  left: 48.85%;
+  bottom: 65.75%;
+  top: 32.45%;
+}
+._25 {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-large-color {
+  width: 22.53%;
+  height: 3.49%;
+  position: absolute;
+  right: 37.98%;
+  left: 39.49%;
+  bottom: 40.8%;
+  top: 55.71%;
+  box-shadow: 0px 10px 40px 0px rgba(248, 161, 112, 0.2);
+}
+.rectangle-65 {
+  background: #33a0ff;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.go-to-payment {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Nunito-ExtraBold", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  position: absolute;
+  right: 6.21%;
+  left: 5.92%;
+  width: 87.87%;
+  bottom: 10.48%;
+  top: 12.86%;
+  height: 76.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment-6 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1500px;
+  height: 2006px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1-copy-355 {
+  width: 78.72%;
+  height: 0.06%;
+  position: absolute;
+  right: 9.89%;
+  left: 11.39%;
+  bottom: 5.47%;
+  top: 94.47%;
+  overflow: visible;
+}
+.shape-3279 {
+  width: 2.56%;
+  height: 1.25%;
+  position: absolute;
+  right: 11.59%;
+  left: 85.86%;
+  bottom: 2.7%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-3289 {
+  width: 1.75%;
+  height: 0.43%;
+  position: absolute;
+  right: 12.01%;
+  left: 86.23%;
+  bottom: 3.09%;
+  top: 96.47%;
+  overflow: visible;
+}
+.shape-32810 {
+  width: 0.34%;
+  height: 0.23%;
+  position: absolute;
+  right: 13.43%;
+  left: 86.23%;
+  bottom: 3.29%;
+  top: 96.47%;
+  overflow: visible;
+}
+.paypal7 {
+  width: 2.54%;
+  height: 1.25%;
+  position: absolute;
+  right: 15.48%;
+  left: 81.99%;
+  bottom: 2.69%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-32710 {
+  width: 2.55%;
+  height: 1.25%;
+  position: absolute;
+  right: 19.34%;
+  left: 78.11%;
+  bottom: 2.7%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-3299 {
+  width: 1.2%;
+  height: 0.9%;
+  position: absolute;
+  right: 19.58%;
+  left: 79.22%;
+  bottom: 2.88%;
+  top: 96.23%;
+  overflow: visible;
+}
+.shape-32910 {
+  width: 1.2%;
+  height: 0.9%;
+  position: absolute;
+  right: 20.5%;
+  left: 78.31%;
+  bottom: 2.88%;
+  top: 96.23%;
+  overflow: visible;
+}
+.western-union5 {
+  width: 2.55%;
+  height: 1.25%;
+  position: absolute;
+  right: 23.2%;
+  left: 74.25%;
+  bottom: 2.69%;
+  top: 96.06%;
+  overflow: visible;
+}
+.twitter6 {
+  width: 0.98%;
+  height: 0.59%;
+  position: absolute;
+  right: 52.39%;
+  left: 46.63%;
+  bottom: 19.46%;
+  top: 79.95%;
+  overflow: visible;
+}
+.facebook6 {
+  width: 0.51%;
+  height: 0.75%;
+  position: absolute;
+  right: 55.99%;
+  left: 43.5%;
+  bottom: 19.4%;
+  top: 79.85%;
+  overflow: visible;
+}
+.group-40011 {
+  height: auto;
+  position: absolute;
+  left: 28.17px;
+  top: 10.83px;
+  transform: translate(-17.33px, 0px);
+  overflow: visible;
+}
+.divider13 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 82.8%;
+  top: 17.1%;
+  overflow: visible;
+}
+.divider14 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 72.23%;
+  top: 27.67%;
+  overflow: visible;
+}
+.rectangle-397 {
+  width: 8.3%;
+  height: 2.29%;
+  position: absolute;
+  right: 22.5%;
+  left: 69.2%;
+  bottom: 76.42%;
+  top: 21.29%;
+  overflow: visible;
+}
+.group-276 {
+  width: 0.57%;
+  height: 0.4%;
+  position: absolute;
+  right: 23.71%;
+  left: 75.72%;
+  bottom: 77.37%;
+  top: 22.23%;
+  overflow: visible;
+}
+.rectangle-11-copy-36 {
+  width: 0.57%;
+  height: 0.1%;
+  position: absolute;
+  right: 29.01%;
+  left: 70.42%;
+  bottom: 77.52%;
+  top: 22.38%;
+  overflow: visible;
+}
+.del5 {
+  width: 1.57%;
+  height: 1.1%;
+  position: absolute;
+  right: 91.49%;
+  left: 6.93%;
+  bottom: 77.02%;
+  top: 21.89%;
+  overflow: visible;
+}
+.pic7 {
+  width: 9.3%;
+  height: 6.48%;
+  position: absolute;
+  right: 80.4%;
+  left: 10.3%;
+  bottom: 74.33%;
+  top: 19.19%;
+  overflow: visible;
+}
+.divider15 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 61.66%;
+  top: 38.24%;
+  overflow: visible;
+}
+.rectangle-398 {
+  width: 8.3%;
+  height: 2.29%;
+  position: absolute;
+  right: 22.5%;
+  left: 69.2%;
+  bottom: 65.85%;
+  top: 31.86%;
+  overflow: visible;
+}
+.group-277 {
+  width: 0.57%;
+  height: 0.4%;
+  position: absolute;
+  right: 23.71%;
+  left: 75.72%;
+  bottom: 66.8%;
+  top: 32.8%;
+  overflow: visible;
+}
+.rectangle-11-copy-37 {
+  width: 0.57%;
+  height: 0.1%;
+  position: absolute;
+  right: 29.01%;
+  left: 70.42%;
+  bottom: 66.95%;
+  top: 32.95%;
+  overflow: visible;
+}
+.del6 {
+  width: 1.57%;
+  height: 1.1%;
+  position: absolute;
+  right: 91.49%;
+  left: 6.93%;
+  bottom: 66.45%;
+  top: 32.45%;
+  overflow: visible;
+}
+.pic8 {
+  width: 9.3%;
+  height: 6.48%;
+  position: absolute;
+  right: 80.4%;
+  left: 10.3%;
+  bottom: 63.76%;
+  top: 29.76%;
+  overflow: visible;
+}
+.divider16 {
+  width: 24.67%;
+  height: 0.1%;
+  position: absolute;
+  right: 13.03%;
+  left: 62.3%;
+  bottom: 49.55%;
+  top: 50.35%;
+  overflow: visible;
+}
+.rectangle-376 {
+  width: 24.94%;
+  height: 2.99%;
+  position: absolute;
+  right: 12.76%;
+  left: 62.3%;
+  bottom: 41.72%;
+  top: 55.29%;
+  overflow: visible;
+}
+.base7 {
+  width: 24.6%;
+  height: 2.99%;
+  position: absolute;
+  right: 66.43%;
+  left: 8.97%;
+  bottom: 54.19%;
+  top: 42.82%;
+  overflow: visible;
+}
+.rectangle-377 {
+  width: 7.87%;
+  height: 2.99%;
+  position: absolute;
+  right: 66.43%;
+  left: 25.7%;
+  bottom: 54.19%;
+  top: 42.82%;
+  overflow: visible;
+}
+.home-bag-sneakers-belt-contact-span3 {
+  color: #40bfff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.home-bag-sneakers-belt-contact-span4 {
+  color: #22262a;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.group-40012 {
+  height: auto;
+  position: absolute;
+  left: 31.78px;
+  top: 12.22px;
+  transform: translate(-19.56px, 0px);
+  overflow: visible;
+}
+.divider17 {
+  width: 100.03%;
+  height: 0.1%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 96.27%;
+  top: 3.63%;
+  overflow: visible;
+}
+.arrow-down10 {
+  width: 0.44%;
+  height: 0.2%;
+  position: absolute;
+  right: 90.52%;
+  left: 9.04%;
+  bottom: 97.56%;
+  top: 2.24%;
+  overflow: visible;
+}
+.arrow-down11 {
+  width: 0.44%;
+  height: 0.2%;
+  position: absolute;
+  right: 86.25%;
+  left: 13.31%;
+  bottom: 97.51%;
+  top: 2.29%;
+  overflow: visible;
+}
+.profile-close-25 {
+  width: 1.33%;
+  height: 1%;
+  position: absolute;
+  right: 32.54%;
+  left: 66.13%;
+  bottom: 97.24%;
+  top: 1.76%;
+  overflow: visible;
+}
+.search-icon5 {
+  width: 1.4%;
+  height: 1.04%;
+  position: absolute;
+  right: 9.33%;
+  left: 89.28%;
+  bottom: 97.22%;
+  top: 1.74%;
+  overflow: visible;
+}
+.group13 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.base8 {
+  opacity: 0.5;
+  width: 100.03%;
+  height: 2.54%;
+  position: absolute;
+  right: 0%;
+  left: -0.03%;
+  bottom: 87.88%;
+  top: 9.58%;
+  overflow: visible;
+}
+.group-523 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle9 {
+  background: rgba(196, 196, 196, 0);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 301.96px;
+  top: 526.72px;
+}
+.status-bar2 {
+  width: 22.22px;
+  height: 22.22px;
+  position: absolute;
+  left: 310.85px;
+  top: 535.61px;
+  overflow: visible;
+}
+.times2 {
+  opacity: 0.5;
+  width: 1.67%;
+  height: 1.25%;
+  position: absolute;
+  right: 24.07%;
+  left: 74.26%;
+  bottom: 71.75%;
+  top: 27.01%;
+  overflow: visible;
+}
+.vector3 {
+  width: 8.13%;
+  height: 0%;
+  position: absolute;
+  right: 45.82%;
+  left: 46.05%;
+  bottom: 66.6%;
+  top: 33.4%;
+  overflow: visible;
+}
+.ellipse4 {
+  background: #40bfff;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.confirm {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Nunito-ExtraBold", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  position: absolute;
+  right: 6.21%;
+  left: 5.92%;
+  width: 87.87%;
+  bottom: 10.48%;
+  top: 12.86%;
+  height: 76.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.credit-card {
+  width: 339px;
+  height: 198px;
+  position: static;
+}
+.rectangle10 {
+  background: linear-gradient(
+    180deg,
+    rgba(172, 172, 172, 1) 0%,
+    rgba(79, 79, 79, 1) 100%
+  );
+  border-radius: 10px;
+  width: 22.6%;
+  height: 9.87%;
+  position: absolute;
+  right: 54.6%;
+  left: 22.8%;
+  bottom: 54.19%;
+  top: 35.94%;
+}
+.mask-group {
+  width: 339px;
+  height: 198px;
+  position: static;
+}
+.rectangle11 {
+  background: linear-gradient(
+    180deg,
+    rgba(154, 154, 154, 1) 0%,
+    rgba(90, 90, 90, 1) 100%
+  );
+  border-radius: 10px;
+  width: 22.6%;
+  height: 9.87%;
+  position: absolute;
+  right: 54.6%;
+  left: 22.8%;
+  bottom: 54.19%;
+  top: 35.94%;
+}
+.ellipse5 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  width: 21.06%;
+  height: 15.75%;
+  position: absolute;
+  right: 64.7%;
+  left: 14.24%;
+  bottom: 51.77%;
+  top: 32.48%;
+}
+.visa-logo {
+  width: 1.13%;
+  height: 0.27%;
+  position: absolute;
+  right: 59.72%;
+  left: 39.15%;
+  bottom: 62.69%;
+  top: 37.04%;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.subtract {
+  width: 42px;
+  height: 30px;
+  position: absolute;
+  left: 366.96px;
+  top: 742.7px;
+  overflow: visible;
+}
+._1234-5678-9123-4567 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Dosis-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 139.04%;
+  font-weight: 600;
+  position: absolute;
+  right: 62.62%;
+  left: 24.24%;
+  width: 13.13%;
+  bottom: 57.35%;
+  top: 40.96%;
+  height: 1.69%;
+}
+.john-doe {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Dosis-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 139.04%;
+  font-weight: 600;
+  position: absolute;
+  right: 69.09%;
+  left: 24.24%;
+  width: 6.67%;
+  bottom: 55.2%;
+  top: 43.1%;
+  height: 1.69%;
+}
+._00-00 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Dosis-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 139.04%;
+  font-weight: 600;
+  position: absolute;
+  right: 56.09%;
+  left: 39.64%;
+  width: 4.27%;
+  bottom: 55.2%;
+  top: 43.1%;
+  height: 1.69%;
+}
+.input-on-light-text6 {
+  width: 22.4%;
+  height: 2.49%;
+  position: absolute;
+  right: 23.71%;
+  left: 53.89%;
+  bottom: 61.43%;
+  top: 36.08%;
+}
+.card-number {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  left: 14px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-on-light-text7 {
+  width: 10.73%;
+  height: 2.49%;
+  position: absolute;
+  right: 35.28%;
+  left: 53.98%;
+  bottom: 57.4%;
+  top: 40.11%;
+}
+.expiry {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  left: 14px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-on-light-text8 {
+  width: 10.73%;
+  height: 2.49%;
+  position: absolute;
+  right: 23.55%;
+  left: 65.72%;
+  bottom: 57.4%;
+  top: 40.11%;
+}
+.cvv {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  left: 14px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-on-light-text9 {
+  width: 22.4%;
+  height: 2.49%;
+  position: absolute;
+  right: 23.71%;
+  left: 53.89%;
+  bottom: 53.07%;
+  top: 44.44%;
+}
+.holder-number {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  left: 14px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.save {
+  width: 161px;
+  height: 25px;
+  position: static;
+}
+.group-509 {
+  width: 155px;
+  height: 22px;
+  position: static;
+}
+.div6 {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "FontAwesome5Free-Solid", sans-serif;
+  font-size: 12px;
+  line-height: 126.5%;
+  font-weight: 400;
+  position: absolute;
+  right: 44.91%;
+  left: 54.29%;
+  width: 0.8%;
+  bottom: 50.72%;
+  top: 48.48%;
+  height: 0.8%;
+}
+.save-this-credit-card {
+  color: var(--gray, #999999);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150.04%;
+  font-weight: 400;
+  position: absolute;
+  right: 35.38%;
+  left: 56.15%;
+  width: 8.47%;
+  bottom: 50.57%;
+  top: 48.33%;
+  height: 1.1%;
+}
+.group-510 {
+  width: 161px;
+  height: 25px;
+  position: static;
+}
+.group-511 {
+  width: 24px;
+  height: 24px;
+  position: static;
+}
+.rectangle-25 {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--gray-light, #dfdede);
+  border-width: 1px;
+  width: 1.6%;
+  height: 1.2%;
+  position: absolute;
+  right: 44.51%;
+  left: 53.89%;
+  bottom: 50.62%;
+  top: 48.18%;
+}
+.payment-5 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1500px;
+  height: 2006px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1-copy-356 {
+  width: 78.72%;
+  height: 0.06%;
+  position: absolute;
+  right: 9.89%;
+  left: 11.39%;
+  bottom: 5.47%;
+  top: 94.47%;
+  overflow: visible;
+}
+.shape-32711 {
+  width: 2.56%;
+  height: 1.25%;
+  position: absolute;
+  right: 11.59%;
+  left: 85.86%;
+  bottom: 2.7%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-32811 {
+  width: 1.75%;
+  height: 0.43%;
+  position: absolute;
+  right: 12.01%;
+  left: 86.23%;
+  bottom: 3.09%;
+  top: 96.47%;
+  overflow: visible;
+}
+.shape-32812 {
+  width: 0.34%;
+  height: 0.23%;
+  position: absolute;
+  right: 13.43%;
+  left: 86.23%;
+  bottom: 3.29%;
+  top: 96.47%;
+  overflow: visible;
+}
+.paypal8 {
+  width: 2.54%;
+  height: 1.25%;
+  position: absolute;
+  right: 15.48%;
+  left: 81.99%;
+  bottom: 2.69%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-32712 {
+  width: 2.55%;
+  height: 1.25%;
+  position: absolute;
+  right: 19.34%;
+  left: 78.11%;
+  bottom: 2.7%;
+  top: 96.05%;
+  overflow: visible;
+}
+.shape-32911 {
+  width: 1.2%;
+  height: 0.9%;
+  position: absolute;
+  right: 19.58%;
+  left: 79.22%;
+  bottom: 2.88%;
+  top: 96.23%;
+  overflow: visible;
+}
+.shape-32912 {
+  width: 1.2%;
+  height: 0.9%;
+  position: absolute;
+  right: 20.5%;
+  left: 78.31%;
+  bottom: 2.88%;
+  top: 96.23%;
+  overflow: visible;
+}
+.western-union6 {
+  width: 2.55%;
+  height: 1.25%;
+  position: absolute;
+  right: 23.2%;
+  left: 74.25%;
+  bottom: 2.69%;
+  top: 96.06%;
+  overflow: visible;
+}
+.twitter7 {
+  width: 0.98%;
+  height: 0.59%;
+  position: absolute;
+  right: 52.39%;
+  left: 46.63%;
+  bottom: 19.46%;
+  top: 79.95%;
+  overflow: visible;
+}
+.facebook7 {
+  width: 0.51%;
+  height: 0.75%;
+  position: absolute;
+  right: 55.99%;
+  left: 43.5%;
+  bottom: 19.4%;
+  top: 79.85%;
+  overflow: visible;
+}
+.group-40013 {
+  height: auto;
+  position: absolute;
+  left: 28.17px;
+  top: 10.83px;
+  transform: translate(-17.33px, 0px);
+  overflow: visible;
+}
+.divider18 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 82.8%;
+  top: 17.1%;
+  overflow: visible;
+}
+.divider19 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 72.23%;
+  top: 27.67%;
+  overflow: visible;
+}
+.rectangle-399 {
+  width: 8.3%;
+  height: 2.29%;
+  position: absolute;
+  right: 22.5%;
+  left: 69.2%;
+  bottom: 76.42%;
+  top: 21.29%;
+  overflow: visible;
+}
+.group-278 {
+  width: 0.57%;
+  height: 0.4%;
+  position: absolute;
+  right: 23.71%;
+  left: 75.72%;
+  bottom: 77.37%;
+  top: 22.23%;
+  overflow: visible;
+}
+.rectangle-11-copy-38 {
+  width: 0.57%;
+  height: 0.1%;
+  position: absolute;
+  right: 29.01%;
+  left: 70.42%;
+  bottom: 77.52%;
+  top: 22.38%;
+  overflow: visible;
+}
+.del7 {
+  width: 1.57%;
+  height: 1.1%;
+  position: absolute;
+  right: 91.49%;
+  left: 6.93%;
+  bottom: 77.02%;
+  top: 21.89%;
+  overflow: visible;
+}
+.pic9 {
+  width: 9.3%;
+  height: 6.48%;
+  position: absolute;
+  right: 80.4%;
+  left: 10.3%;
+  bottom: 74.33%;
+  top: 19.19%;
+  overflow: visible;
+}
+.divider20 {
+  width: 83.74%;
+  height: 0.1%;
+  position: absolute;
+  right: 9.33%;
+  left: 6.93%;
+  bottom: 61.66%;
+  top: 38.24%;
+  overflow: visible;
+}
+.rectangle-3910 {
+  width: 8.3%;
+  height: 2.29%;
+  position: absolute;
+  right: 22.5%;
+  left: 69.2%;
+  bottom: 65.85%;
+  top: 31.86%;
+  overflow: visible;
+}
+.group-279 {
+  width: 0.57%;
+  height: 0.4%;
+  position: absolute;
+  right: 23.71%;
+  left: 75.72%;
+  bottom: 66.8%;
+  top: 32.8%;
+  overflow: visible;
+}
+.rectangle-11-copy-39 {
+  width: 0.57%;
+  height: 0.1%;
+  position: absolute;
+  right: 29.01%;
+  left: 70.42%;
+  bottom: 66.95%;
+  top: 32.95%;
+  overflow: visible;
+}
+.del8 {
+  width: 1.57%;
+  height: 1.1%;
+  position: absolute;
+  right: 91.49%;
+  left: 6.93%;
+  bottom: 66.45%;
+  top: 32.45%;
+  overflow: visible;
+}
+.pic10 {
+  width: 9.3%;
+  height: 6.48%;
+  position: absolute;
+  right: 80.4%;
+  left: 10.3%;
+  bottom: 63.76%;
+  top: 29.76%;
+  overflow: visible;
+}
+.divider21 {
+  width: 24.67%;
+  height: 0.1%;
+  position: absolute;
+  right: 13.03%;
+  left: 62.3%;
+  bottom: 49.55%;
+  top: 50.35%;
+  overflow: visible;
+}
+.rectangle-378 {
+  width: 24.94%;
+  height: 2.99%;
+  position: absolute;
+  right: 12.76%;
+  left: 62.3%;
+  bottom: 41.72%;
+  top: 55.29%;
+  overflow: visible;
+}
+.base9 {
+  width: 24.6%;
+  height: 2.99%;
+  position: absolute;
+  right: 66.43%;
+  left: 8.97%;
+  bottom: 54.19%;
+  top: 42.82%;
+  overflow: visible;
+}
+.rectangle-379 {
+  width: 7.87%;
+  height: 2.99%;
+  position: absolute;
+  right: 66.43%;
+  left: 25.7%;
+  bottom: 54.19%;
+  top: 42.82%;
+  overflow: visible;
+}
+.home-bag-sneakers-belt-contact-span5 {
+  color: #40bfff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.home-bag-sneakers-belt-contact-span6 {
+  color: #22262a;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.group-40014 {
+  height: auto;
+  position: absolute;
+  left: 31.78px;
+  top: 12.22px;
+  transform: translate(-19.56px, 0px);
+  overflow: visible;
+}
+.divider22 {
+  width: 100.03%;
+  height: 0.1%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 96.27%;
+  top: 3.63%;
+  overflow: visible;
+}
+.arrow-down12 {
+  width: 0.44%;
+  height: 0.2%;
+  position: absolute;
+  right: 90.52%;
+  left: 9.04%;
+  bottom: 97.56%;
+  top: 2.24%;
+  overflow: visible;
+}
+.arrow-down13 {
+  width: 0.44%;
+  height: 0.2%;
+  position: absolute;
+  right: 86.25%;
+  left: 13.31%;
+  bottom: 97.51%;
+  top: 2.29%;
+  overflow: visible;
+}
+.profile-close-26 {
+  width: 1.33%;
+  height: 1%;
+  position: absolute;
+  right: 32.54%;
+  left: 66.13%;
+  bottom: 97.24%;
+  top: 1.76%;
+  overflow: visible;
+}
+.search-icon6 {
+  width: 1.4%;
+  height: 1.04%;
+  position: absolute;
+  right: 9.33%;
+  left: 89.28%;
+  bottom: 97.22%;
+  top: 1.74%;
+  overflow: visible;
+}
+.group14 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.base10 {
+  opacity: 0.5;
+  width: 100.03%;
+  height: 2.54%;
+  position: absolute;
+  right: 0%;
+  left: -0.03%;
+  bottom: 87.88%;
+  top: 9.58%;
+  overflow: visible;
+}
+.chevron-left {
+  color: var(--black-text, #393939);
+  text-align: left;
+  font-family: "FontAwesome5Pro-Solid", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 49.53%;
+  left: 49.53%;
+  width: 0.93%;
+  bottom: 59.57%;
+  top: 39.33%;
+  height: 1.1%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.group-524 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-26 {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 68.1%;
+  height: 35.82%;
+  position: absolute;
+  right: 16.62%;
+  left: 15.28%;
+  bottom: 40.6%;
+  top: 23.58%;
+}
+.times3 {
+  opacity: 0.5;
+  width: 1.67%;
+  height: 1.13%;
+  position: absolute;
+  right: 24.07%;
+  left: 74.26%;
+  bottom: 72.19%;
+  top: 26.68%;
+  overflow: visible;
+}
+.make-payment2 {
+  color: #40bfff;
+  text-align: left;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  right: 43.09%;
+  left: 41.74%;
+  width: 15.17%;
+  bottom: 70.33%;
+  top: 27.34%;
+  height: 2.33%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.rectangle12 {
+  background: rgba(196, 196, 196, 0);
+  width: 2.67%;
+  height: 1.99%;
+  position: absolute;
+  right: 76.65%;
+  left: 20.68%;
+  bottom: 71.49%;
+  top: 26.51%;
+}
+.status-bar3 {
+  width: 1.48%;
+  height: 1.11%;
+  position: absolute;
+  right: 77.24%;
+  left: 21.27%;
+  bottom: 71.94%;
+  top: 26.96%;
+  overflow: visible;
+}
+.success-icon {
+  width: 8.67%;
+  height: 6.43%;
+  position: absolute;
+  right: 45.6%;
+  left: 45.73%;
+  bottom: 56.88%;
+  top: 36.69%;
+  overflow: visible;
+}
+.success {
+  color: #223263;
+  text-align: center;
+  font-family: var(--heading-h2-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--heading-h2-font-size, 24px);
+  line-height: var(--heading-h2-line-height, 150%);
+  font-weight: var(--heading-h2-font-weight, 700);
+  position: absolute;
+  right: 43.73%;
+  left: 43.73%;
+  width: 12.53%;
+  bottom: 52.19%;
+  top: 44.57%;
+  height: 3.24%;
+}
+.vector4 {
+  width: 8.13%;
+  height: 0%;
+  position: absolute;
+  right: 45.82%;
+  left: 46.05%;
+  bottom: 66.6%;
+  top: 33.4%;
+  overflow: visible;
+}
+.button-large-color2 {
+  width: 22.53%;
+  height: 3.49%;
+  position: absolute;
+  right: 38.75%;
+  left: 38.72%;
+  bottom: 46.26%;
+  top: 50.25%;
+  box-shadow: 0px 10px 40px 0px rgba(248, 161, 112, 0.2);
+}
+.complete {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Nunito-ExtraBold", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  position: absolute;
+  right: 6.21%;
+  left: 5.92%;
+  width: 87.87%;
+  bottom: 10.48%;
+  top: 12.86%;
+  height: 76.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-us4 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1500px;
+  height: 2107px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-4374 {
+  background: #bcddfe;
+  width: 100%;
+  height: 32.3%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0.02%;
+  top: 67.68%;
+}
+.rectangle-1-copy-357 {
+  width: 78.72%;
+  height: 0.06%;
+  position: absolute;
+  right: 9.89%;
+  left: 11.39%;
+  bottom: 5.23%;
+  top: 94.71%;
+  overflow: visible;
+}
+.shape-32713 {
+  width: 2.56%;
+  height: 1.19%;
+  position: absolute;
+  right: 11.59%;
+  left: 85.85%;
+  bottom: 2.6%;
+  top: 96.21%;
+  overflow: visible;
+}
+.shape-32813 {
+  width: 1.75%;
+  height: 0.41%;
+  position: absolute;
+  right: 12.02%;
+  left: 86.23%;
+  bottom: 2.97%;
+  top: 96.62%;
+  overflow: visible;
+}
+.shape-32814 {
+  width: 0.34%;
+  height: 0.22%;
+  position: absolute;
+  right: 13.43%;
+  left: 86.23%;
+  bottom: 3.16%;
+  top: 96.62%;
+  overflow: visible;
+}
+.paypal9 {
+  width: 2.54%;
+  height: 1.19%;
+  position: absolute;
+  right: 15.48%;
+  left: 81.98%;
+  bottom: 2.59%;
+  top: 96.22%;
+  overflow: visible;
+}
+.shape-32714 {
+  width: 2.55%;
+  height: 1.19%;
+  position: absolute;
+  right: 19.34%;
+  left: 78.1%;
+  bottom: 2.6%;
+  top: 96.21%;
+  overflow: visible;
+}
+.shape-32913 {
+  width: 1.2%;
+  height: 0.85%;
+  position: absolute;
+  right: 19.58%;
+  left: 79.22%;
+  bottom: 2.77%;
+  top: 96.38%;
+  overflow: visible;
+}
+.shape-32914 {
+  width: 1.2%;
+  height: 0.85%;
+  position: absolute;
+  right: 20.5%;
+  left: 78.3%;
+  bottom: 2.77%;
+  top: 96.38%;
+  overflow: visible;
+}
+.master-card4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 6px;
+  font-weight: 400;
+  position: absolute;
+  right: 19.6%;
+  left: 78.27%;
+  width: 2.13%;
+  bottom: 3.07%;
+  top: 96.6%;
+  height: 0.33%;
+  transform-origin: 0 0;
+  transform: rotate(7.313deg) scale(1, 1);
+}
+.western-union7 {
+  width: 2.55%;
+  height: 1.19%;
+  position: absolute;
+  right: 23.2%;
+  left: 74.25%;
+  bottom: 2.59%;
+  top: 96.22%;
+  overflow: visible;
+}
+._2018-ecommerce-theme-by-www-bisenbaev-com4 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 68.93%;
+  left: 10.34%;
+  width: 20.73%;
+  bottom: 2.84%;
+  top: 96.35%;
+  height: 0.81%;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 75.95%;
+  left: 9.31%;
+  width: 14.74%;
+  bottom: 19.05%;
+  top: 77.39%;
+  height: 3.56%;
+}
+.contact-us5 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 22.84%;
+  left: 70.43%;
+  width: 6.73%;
+  bottom: 23.18%;
+  top: 75.54%;
+  height: 1.28%;
+}
+.e-comm-4578-marmora-road-glasgow-d-04-89-gr4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 19.7%;
+  left: 70.43%;
+  width: 9.87%;
+  bottom: 19.28%;
+  top: 77.73%;
+  height: 2.99%;
+}
+.our-offers6 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 14.79%;
+  left: 79.08%;
+  width: 6.13%;
+  bottom: 13.71%;
+  top: 85%;
+  height: 1.28%;
+}
+.about-us-infomation-privacy-policy-terms-conditions13 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 10.63%;
+  left: 79.24%;
+  width: 10.13%;
+  bottom: 8.83%;
+  top: 87.19%;
+  height: 3.99%;
+}
+.my-account5 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 36.38%;
+  left: 56.55%;
+  width: 7.07%;
+  bottom: 13.93%;
+  top: 84.79%;
+  height: 1.28%;
+}
+.about-us-infomation-privacy-policy-terms-conditions14 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 33.35%;
+  left: 56.51%;
+  width: 10.13%;
+  bottom: 9.04%;
+  top: 86.97%;
+  height: 3.99%;
+}
+.service5 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 64.25%;
+  left: 31.35%;
+  width: 4.4%;
+  bottom: 14.19%;
+  top: 84.53%;
+  height: 1.28%;
+}
+.about-us-infomation-privacy-policy-terms-conditions15 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 58.52%;
+  left: 31.35%;
+  width: 10.13%;
+  bottom: 8.56%;
+  top: 87.46%;
+  height: 3.99%;
+}
+.infomation5 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 84.09%;
+  left: 9.31%;
+  width: 6.6%;
+  bottom: 13.93%;
+  top: 84.79%;
+  height: 1.28%;
+}
+.about-us-infomation-privacy-policy-terms-conditions16 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 80.55%;
+  left: 9.31%;
+  width: 10.13%;
+  bottom: 8.52%;
+  top: 87.49%;
+  height: 3.99%;
+}
+.follow-us4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 51%;
+  left: 43.4%;
+  width: 5.6%;
+  bottom: 23.34%;
+  top: 75.38%;
+  height: 1.28%;
+}
+.e-comm7 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 82.01%;
+  left: 12.39%;
+  width: 5.6%;
+  bottom: 23.7%;
+  top: 75.02%;
+  height: 1.28%;
+}
+.since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 43.4%;
+  left: 43.4%;
+  width: 13.2%;
+  bottom: 20.28%;
+  top: 77.59%;
+  height: 2.14%;
+}
+.twitter8 {
+  width: 0.98%;
+  height: 0.56%;
+  position: absolute;
+  right: 52.4%;
+  left: 46.63%;
+  bottom: 18.55%;
+  top: 80.88%;
+  overflow: visible;
+}
+.facebook8 {
+  width: 0.51%;
+  height: 0.72%;
+  position: absolute;
+  right: 55.99%;
+  left: 43.5%;
+  bottom: 18.49%;
+  top: 80.79%;
+  overflow: visible;
+}
+.icon9 {
+  width: 2.6%;
+  height: 1.85%;
+  position: absolute;
+  right: 88.09%;
+  left: 9.31%;
+  bottom: 23.37%;
+  top: 74.78%;
+}
+.group-40015 {
+  height: auto;
+  position: absolute;
+  left: 28.17px;
+  top: 10.83px;
+  transform: translate(-17.33px, 0px);
+  overflow: visible;
+}
+.icon10 {
+  width: 2.93%;
+  height: 2.09%;
+  position: absolute;
+  right: 90.13%;
+  left: 6.93%;
+  bottom: 93.11%;
+  top: 4.8%;
+}
+.group-40016 {
+  height: auto;
+  position: absolute;
+  left: 31.78px;
+  top: 12.22px;
+  transform: translate(-19.56px, 0px);
+  overflow: visible;
+}
+.e-comm8 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 84.11%;
+  left: 10.29%;
+  width: 5.6%;
+  bottom: 93.45%;
+  top: 5.27%;
+  height: 1.28%;
+}
+.divider23 {
+  width: 100.03%;
+  height: 0.09%;
+  position: absolute;
+  right: -0.03%;
+  left: 0%;
+  bottom: 96.45%;
+  top: 3.46%;
+  overflow: visible;
+}
+.items5 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 16.89%;
+  left: 79.57%;
+  width: 3.53%;
+  bottom: 97.3%;
+  top: 1.56%;
+  height: 1.14%;
+}
+._0-004 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: absolute;
+  right: 11.29%;
+  left: 85.24%;
+  width: 3.47%;
+  bottom: 97.25%;
+  top: 1.61%;
+  height: 1.14%;
+}
+.en4 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.33%;
+  left: 6.93%;
+  width: 1.73%;
+  bottom: 97.2%;
+  top: 1.66%;
+  height: 1.14%;
+}
+.arrow-down14 {
+  width: 0.44%;
+  height: 0.19%;
+  position: absolute;
+  right: 90.52%;
+  left: 9.04%;
+  bottom: 97.68%;
+  top: 2.13%;
+  overflow: visible;
+}
+.usd4 {
+  color: #22262a;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 86.97%;
+  left: 10.36%;
+  width: 2.67%;
+  bottom: 97.2%;
+  top: 1.66%;
+  height: 1.14%;
+}
+.arrow-down15 {
+  width: 0.44%;
+  height: 0.19%;
+  position: absolute;
+  right: 86.25%;
+  left: 13.31%;
+  bottom: 97.63%;
+  top: 2.18%;
+  overflow: visible;
+}
+.my-profile4 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 26.3%;
+  left: 67.9%;
+  width: 5.8%;
+  bottom: 97.28%;
+  top: 1.58%;
+  height: 1.14%;
+}
+.profile-close-27 {
+  width: 1.33%;
+  height: 0.95%;
+  position: absolute;
+  right: 32.54%;
+  left: 66.13%;
+  bottom: 97.37%;
+  top: 1.68%;
+  overflow: visible;
+}
+.search-icon7 {
+  width: 1.4%;
+  height: 0.99%;
+  position: absolute;
+  right: 9.33%;
+  left: 89.28%;
+  bottom: 97.35%;
+  top: 1.66%;
+  overflow: visible;
+}
+.rectangle-3944 {
+  background: var(--background-white, #ffffff);
+  width: 5%;
+  height: 2.8%;
+  position: absolute;
+  right: 21.32%;
+  left: 73.68%;
+  bottom: 96.23%;
+  top: 0.97%;
+}
+.system-icon-24-px-cart4 {
+  width: 1.6%;
+  height: 1.14%;
+  position: absolute;
+  right: 22.99%;
+  left: 75.41%;
+  bottom: 97.13%;
+  top: 1.73%;
+  overflow: hidden;
+}
+.group15 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.base11 {
+  opacity: 0.5;
+  width: 100.03%;
+  height: 2.42%;
+  position: absolute;
+  right: 0%;
+  left: -0.03%;
+  bottom: 88.46%;
+  top: 9.12%;
+  overflow: visible;
+}
+.items6 {
+  width: 153.21px;
+  height: 22px;
+  position: static;
+}
+.home6 {
+  color: #33a0ff;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 49.64%;
+  left: 47.16%;
+  width: 3.2%;
+  bottom: 89.15%;
+  top: 9.81%;
+  height: 1.04%;
+}
+.div7 {
+  color: #c1c8ce;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 48.77%;
+  left: 50.9%;
+  width: 0.33%;
+  bottom: 89.15%;
+  top: 10.04%;
+  height: 0.81%;
+}
+.contact-us6 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 42.62%;
+  left: 51.57%;
+  width: 5.8%;
+  bottom: 89.15%;
+  top: 9.81%;
+  height: 1.04%;
+}
+.group-6-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle13 {
+  background: #ffffff;
+  width: 83.5%;
+  height: 33.69%;
+  position: absolute;
+  right: 9.33%;
+  left: 7.18%;
+  bottom: 48.12%;
+  top: 18.2%;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.union {
+  width: 646.28px;
+  height: 715.62px;
+  position: absolute;
+  left: 107.66px;
+  top: 377.52px;
+  overflow: visible;
+}
+.get-in-touch {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  right: 60.25%;
+  left: 29.34%;
+  width: 10.41%;
+  bottom: 71.32%;
+  top: 22.15%;
+  height: 6.53%;
+}
+.get-in-touch-span {
+  color: #ffffff;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+.get-in-touch-span2 {
+  color: #ffffff;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.contact-e-comm-ng {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: lowercase;
+  position: absolute;
+  right: 59.96%;
+  left: 29.44%;
+  width: 10.6%;
+  bottom: 65.9%;
+  top: 32.99%;
+  height: 1.11%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+._234-4556-6665-34 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 59.77%;
+  left: 29.34%;
+  width: 10.89%;
+  bottom: 63.68%;
+  top: 35.21%;
+  height: 1.11%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+._20-prince-hakerem-lekki-phase-1-lagos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 55.09%;
+  left: 29.34%;
+  width: 15.57%;
+  bottom: 60.34%;
+  top: 37.43%;
+  height: 2.22%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.group-52 {
+  width: 510.15px;
+  height: 105.37px;
+  position: static;
+}
+.rectangle14 {
+  background: #ffffff;
+  border-radius: 0px 3px 3px 0px;
+  border-style: solid;
+  border-color: #33a0ff;
+  border-width: 1px;
+  width: 34.01%;
+  height: 3.47%;
+  position: absolute;
+  right: 13.72%;
+  left: 52.27%;
+  bottom: 72.29%;
+  top: 24.24%;
+  box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.01);
+}
+.fullname {
+  color: #373737;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 41.63%;
+  left: 52.45%;
+  width: 5.92%;
+  bottom: 76.11%;
+  top: 22.71%;
+  height: 1.18%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.james-doe {
+  color: #373737;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 37.87%;
+  left: 54.11%;
+  width: 8.02%;
+  bottom: 73.26%;
+  top: 25.42%;
+  height: 1.32%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.group-5-1 {
+  width: 510.15px;
+  height: 105.37px;
+  position: static;
+}
+.rectangle15 {
+  background: #ffffff;
+  border-radius: 0px 3px 3px 0px;
+  border-style: solid;
+  border-color: #969393;
+  border-width: 1px;
+  width: 34.01%;
+  height: 3.47%;
+  position: absolute;
+  right: 13.72%;
+  left: 52.27%;
+  bottom: 66.25%;
+  top: 30.28%;
+  box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.01);
+}
+.email {
+  color: #373737;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 44.02%;
+  left: 52.45%;
+  width: 3.53%;
+  bottom: 70.07%;
+  top: 28.75%;
+  height: 1.18%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.jamesdoe-gmail-com {
+  color: #969393;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: lowercase;
+  position: absolute;
+  right: 30.03%;
+  left: 54.11%;
+  width: 15.86%;
+  bottom: 67.22%;
+  top: 31.46%;
+  height: 1.32%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.group-5-2 {
+  width: 510.15px;
+  height: 261.95px;
+  position: static;
+}
+.rectangle16 {
+  background: #ffffff;
+  border-radius: 0px 3px 3px 0px;
+  border-style: solid;
+  border-color: #969393;
+  border-width: 1px;
+  width: 34.01%;
+  height: 10.9%;
+  position: absolute;
+  right: 13.72%;
+  left: 52.27%;
+  bottom: 52.77%;
+  top: 36.32%;
+  box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.01);
+}
+.type-your-message {
+  color: #969393;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 33.69%;
+  left: 54.08%;
+  width: 12.23%;
+  bottom: 60.62%;
+  top: 38.27%;
+  height: 1.11%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.type-your-message-span {
+  color: #969393;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.type-your-message-span2 {
+  color: #969393;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+.message {
+  color: #373737;
+  text-align: left;
+  font-family: "Raleway-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 41.92%;
+  left: 52.45%;
+  width: 5.64%;
+  bottom: 64.02%;
+  top: 34.8%;
+  height: 1.18%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.rounded-rectangle-32 {
+  width: 42.33%;
+  height: 3.04%;
+  position: absolute;
+  right: 29.2%;
+  left: 28.47%;
+  bottom: 38.7%;
+  top: 58.26%;
+  overflow: visible;
+}
+.rounded-rectangle-3-copy2 {
+  width: 8.47%;
+  height: 3.04%;
+  position: absolute;
+  right: 29.2%;
+  left: 62.33%;
+  bottom: 38.7%;
+  top: 58.26%;
+  overflow: visible;
+}
+.search3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 31.03%;
+  left: 64.17%;
+  width: 4.8%;
+  bottom: 39.51%;
+  top: 59.07%;
+  height: 1.42%;
+}
+.search-query2 {
+  color: #262626;
+  text-align: left;
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.3499999940395355;
+  position: absolute;
+  right: 62.33%;
+  left: 29.87%;
+  width: 7.8%;
+  bottom: 39.6%;
+  top: 59.35%;
+  height: 1.04%;
+}
+.call-1 {
+  width: 47.88%;
+  height: 34.09%;
+  position: absolute;
+  right: 56.62%;
+  left: -4.5%;
+  bottom: 46.98%;
+  top: 18.93%;
+  object-fit: cover;
+}
+.group-521 {
+  position: absolute;
+  inset: 0;
+}
+.home7 {
+  color: #22262a;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 59.03%;
+  left: 36.31%;
+  width: 4.67%;
+  bottom: 93.76%;
+  top: 4.53%;
+  height: 1.71%;
+}
+.bags4 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 48.17%;
+  left: 47.5%;
+  width: 4.33%;
+  bottom: 93.76%;
+  top: 4.53%;
+  height: 1.71%;
+}
+.sneakers4 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 33.71%;
+  left: 58.36%;
+  width: 7.93%;
+  bottom: 93.76%;
+  top: 4.53%;
+  height: 1.71%;
+}
+.belt4 {
+  color: #262626;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 23.72%;
+  left: 72.82%;
+  width: 3.47%;
+  bottom: 93.76%;
+  top: 4.53%;
+  height: 1.71%;
+}
+.contact4 {
+  color: #40bfff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  right: 9.33%;
+  left: 82.81%;
+  width: 7.87%;
+  bottom: 93.76%;
+  top: 4.53%;
+  height: 1.71%;
+}
